@@ -17,10 +17,10 @@
                 Organic Fresh Produce
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="fresh-produce-link">
-                <a href="" class="dropdown-item">Fruits</a>
-                <a href="" class="dropdown-item">Vegetables</a>
-                <a href="" class="dropdown-item">Bulk Buy</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=organic-fruits" class="dropdown-item">Fruits</a>
+                <a href="{% url 'products' %}?category=organic-vegetables" class="dropdown-item">Vegetables</a>
+                <a href="{% url 'products' %}?category=bulk-buy" class="dropdown-item">Bulk Buy</a>
+                <a href="{% url 'products' %}?category=organic-fruits,organic-vegetables,bulk-buy" class="dropdown-item">All Fresh Produce</a>
             </div>
         </li>
 
@@ -29,10 +29,11 @@
                 Organic Groceries
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Cupboard</a>
-                <a href="" class="dropdown-item">Pasta and Rice</a>
-                <a href="" class="dropdown-item">Jams ans Spreads</a>
-                <a href="" class="dropdown-item">All Groceries</a>
+                <a href="{% url 'products' %}?category=Cupboard" class="dropdown-item">Cupboard</a>
+                <a href="{% url 'products' %}?category=pasta-rice" class="dropdown-item">Pasta and Rice</a>
+                <a href="{% url 'products' %}?category=jams-spreads" class="dropdown-item">Jams ans Spreads</a>
+                <a href="{% url 'products' %}?category=meat-fish" class="dropdown-item">Meat & Fish</a>
+                <a href="{% url 'products' %}?category=Cupboard,pasta-rice,jams-spreads,meat-fish" class="dropdown-item">All Groceries</a>
             </div>
         </li>
 
@@ -41,10 +42,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=veg-box" class="dropdown-item">Veg Box</a>
+                <a href="{% url 'products' %}?category=fruit-box" class="dropdown-item">Fruit box</a>
+                <a href="{% url 'products' %}?category=rescue-corner" class="dropdown-item">Rescue Corner</a>
+                <a href="{% url 'products' %}?category=veg-box,fruit-box,rescue-corner" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
