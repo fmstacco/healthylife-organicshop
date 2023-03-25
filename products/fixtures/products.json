@@ -1,0 +1,92 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Apples 5k",
+        "description": "5k Organic Apples produced in Ireland",
+        "price": 20.00,
+        "category": 3,
+        "rating": 5.0,
+        "image": "5k-bulk-organic-apples.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Oranges - 6kg",
+        "description": "6k Organic Oranges produced in Ireland",
+        "price": 19.50,
+        "category": 3,
+        "rating": 4.8,
+        "image": "6k-bulk-organic-oranges.jpg"
+     }
+ }, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Oranges",
+        "description": "Organic Orange produced in Ireland",
+        "price": 0.80,
+        "category": 1,
+        "rating": 4.8,
+        "image": "organic-oranges.jpg"
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Celery",
+        "description": "Organic Celery produced in Ireland",
+        "price": 2.99,
+        "category": 2,
+        "rating": 4.8,
+        "image": "organic-celery.jpg"
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Apple &Mango Puree",
+        "description": "Jar of Organic Apple & Mango Puree Luna e Terra",
+        "price": 1.99,
+        "category": 6,
+        "rating": 4.8,
+        "image": "apple-manago-puree-jar.jpg"
+        }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic White Rice Basmati",
+        "description": "Organic White Rice Basmati",
+        "price": 6.99,
+        "category": 5,
+        "rating": 5.0,
+        "image": "media/organic-white-basmati.jpg"
+        }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Sweetcorn",
+        "description": "Jar of Organic Sweetcorn Jar Luna e Terra",
+        "price": 1.99,
+        "category": 4,
+        "rating": 4.8,
+        "image": "organic-sweetcorn-jar.jpg"
+        }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Chickpeas",
+        "description": "Tin of Organic Chickpeas",
+        "price": 2.25,
+        "category": 4,
+        "rating": 4.8,
+        "image": "organic-chickpeas.jpg"
+        }
+}
+]
+
+ 

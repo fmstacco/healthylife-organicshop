@@ -1,0 +1,58 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "organic-fruits",
+        "friendly_name": "Organic Fruits"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "organic-vegetables",
+        "friendly_name": "Organic Vegetables"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "bulk-buy",
+        "friendly_name": "Organic Bulk Buy"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "Cupboard",
+        "friendly_name": "Organic Cupboard"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "pasta-rice",
+        "friendly_name": "Organic Pasta & Rice"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "jams-spreads",
+        "friendly_name": "Organic Jams & Spreads"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "meat-fish",
+        "friendly_name": "Organic Meat & Fish"
+      }
+    }
+  ]
