@@ -1,1 +1,1 @@
-web: gunicorn organicshop.wsgi.application
+web: gunicorn organicshop.wsgi:application
