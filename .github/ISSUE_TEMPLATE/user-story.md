@@ -7,4 +7,4 @@ assignees: fmstacco
 
 ---
 
-As a **role** I can **capability** so that **received benefit**
+As a **role** I want to be able to **capability** so that I can **received benefit**
