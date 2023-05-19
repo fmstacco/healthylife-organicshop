@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-w8f!@k0o7)^es09k0c#d&am^lcbi8)dayvm^3@3m*&*1ng%39(
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['organic-shop.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['organic-shop.herokuapp.com', 'localhost', '8000-fmstacco-healthylifeorg-230l1g8tlet.ws-eu97.gitpod.io']
 
 
 # Application definition
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'storages',
+    'checkout'
 ]
 
 MIDDLEWARE = [
