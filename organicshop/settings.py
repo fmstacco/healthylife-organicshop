@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['organic-shop.herokuapp.com', 'localhost', '8000-fmstacco-healthylifeorg-230l1g8tlet.ws-eu97.gitpod.io']
 
