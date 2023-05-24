@@ -47,6 +47,7 @@ class StripeWH_Handler:
         """
         Handle the payment_intent.succeeded webhook from Stripe
         """
+        print("IN handle_payment_intent_succeeded")
         intent = event.data.object
         pid = intent.id
         bag = intent.metadata.bag
@@ -56,6 +57,9 @@ class StripeWH_Handler:
         stripe_charge = stripe.Charge.retrieve(
             intent.latest_charge
         )
+
+        print("stripe_charge: ", stripe_charge)
+
 
         billing_details = stripe_charge.billing_details  # updated
         shipping_details = intent.shipping
@@ -100,6 +104,7 @@ class StripeWH_Handler:
                     stripe_pid=pid,
                 )
                 order_exists = True
+                print("ORDER IN TRY: ", order)
                 break
             except Order.DoesNotExist:
                 attempt += 1
@@ -126,6 +131,7 @@ class StripeWH_Handler:
                     original_bag=bag,
                     stripe_pid=pid,
                 )
+                print("ORDER IN ELSE: ", order)
                 for item_id, item_data in json.loads(bag).items():
                     product = Product.objects.get(id=item_id)
                     if isinstance(item_data, int):
@@ -159,7 +165,8 @@ class StripeWH_Handler:
         """
         Handle the payment_intent.payment_failed webhook from Stripe
         """
+        print("IN handle_payment_intent_payment_failed")
+
         return HttpResponse(
             content=f'Webhook received: {event["type"]}',
             status=200)
-            
