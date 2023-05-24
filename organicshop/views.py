@@ -9,4 +9,4 @@ def handler404(request, exception):
 def handler500(request):
     """ Handles error pages 500 """
 
-    return render(request, 'errors/500.html'
+    return render(request, 'errors/500.html')
