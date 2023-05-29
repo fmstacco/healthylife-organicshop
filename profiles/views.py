@@ -1,10 +1,11 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .models import UserProfile
+from .models import UserProfile, Product, Wishlist
 from .forms import UserProfileForm
 
 from checkout.models import Order
+from products.models import Product
 
 
 @login_required
@@ -48,3 +49,19 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def wishlist(request):
+    user_wishlist, created = Wishlist.objects.get_or_create(user=request.user)
+    products = user_wishlist.products.all()
+    context = {'wishlist': products}
+    return render(request, 'wishlist.html', context)
+
+
+@login_required
+def add_to_wishlist(request, product_id):
+    user_wishlist, created = Wishlist.objects.get_or_create(user=request.user)
+    product = get_object_or_404(Product, id=product_id)
+    user_wishlist.products.add(product)
+    return redirect('wishlist')

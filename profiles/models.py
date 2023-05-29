@@ -5,6 +5,8 @@ from django.dispatch import receiver
 
 from django_countries.fields import CountryField
 
+from products.models import Product
+
 
 class UserProfile(models.Model):
     """
@@ -19,8 +21,7 @@ class UserProfile(models.Model):
     default_postcode = models.CharField(max_length=20, null=True, blank=True)
     default_town_or_city = models.CharField(max_length=40, null=True, blank=True)
     default_country = CountryField(blank_label='Country', null=True, blank=True)
-  
-
+   
     def __str__(self):
         return self.user.username
 
@@ -34,3 +35,11 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
         UserProfile.objects.create(user=instance)
     # Existing users: just save the profile
     instance.userprofile.save()
+
+
+class Wishlist(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    products = models.ManyToManyField(Product)
+
+    def __str__(self):
+        return self.user.username

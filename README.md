@@ -14,11 +14,12 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
 * [CSS 3](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://www.javascript.com/)
 
-### Frameworks and supporting libraries other programs 
+### Frameworks, supporting libraries and other programs 
 
 * [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) was used for authentication, registration, account management.
 * [Amazon Web Services](https://aws.amazon.com/) - A service that hosts all static files and images in the project.
 * [Bootstrap](https://getbootstrap.com/) was used to style the website, easily add responsiveness and interactivity.
+* [CANVA](https://www.canva.com/) to create the logo, color palete (Pro version) 
 * [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style the forms.
 * [Django](https://www.djangoproject.com/) as the framework to build the blog.
 * [ElephantSQL](https://www.elephantsql.com/) - A PostgreSQL database hosting service.
@@ -37,7 +38,6 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
 * [Stripe](https://stripe.com/ie) - Used for all the websites payment functionality
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS.
 * [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
-* [CANVA](https://www.canva.com/) to create the logo, color palete (Pro version) 
 
 
 * [**Credits**](<#credits>)
