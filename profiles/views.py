@@ -19,7 +19,7 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile updated successfully')
         else:
-            messages.error(request, 'Update failed. Please ensure the form is valid.')
+            messages.error(request, 'Update failed.Please ensure the form is valid.')
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
@@ -70,3 +70,13 @@ def add_to_wishlist(request, product_id):
     return redirect('wishlist')
 
 
+@login_required
+def delete_from_wishlist(request, product_id):
+    user_wishlist = Wishlist.objects.get(user=request.user)
+    product = get_object_or_404(Product, id=product_id)
+    user_wishlist.products.remove(product)
+
+    messages.add_message(request, messages.SUCCESS, 'Product deleted from your wishlist.')
+
+    return redirect('wishlist')
+    

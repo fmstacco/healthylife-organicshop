@@ -92,6 +92,16 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
+                                                
+                                            
+
+                                            <!--Remove from Wishlist-->
+                                            <form action="{% url 'delete_from_wishlist' product.id %}" method="POST">
+                                                {% csrf_token %}
+                                                <button type="submit">Remove from Wishlist</button>
+                                              </form>
+
+
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 
