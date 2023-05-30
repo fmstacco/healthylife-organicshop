@@ -64,4 +64,9 @@ def add_to_wishlist(request, product_id):
     user_wishlist, created = Wishlist.objects.get_or_create(user=request.user)
     product = get_object_or_404(Product, id=product_id)
     user_wishlist.products.add(product)
+
+    messages.add_message(request, messages.SUCCESS, 'Product successfully added to the wishlist.')
+
     return redirect('wishlist')
+
+

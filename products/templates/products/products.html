@@ -76,16 +76,14 @@
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
                                             
-                                            <!-- "Like" button / Add to wishlist -->
-                                {% if user.is_authenticated %}
-                                <p class="col-6 d-flex justify-content-end addToWish" attr_id="{{ product_id }}">
-                                    <i class="fa-regular fa-heart fa-lg mr-1 text-danger"></i>
-                                </p>
-                                {% else %}
-                                <p class="col-6 d-flex justify-content-end" id="not-log">
-                                    <i class="fa-regular fa-heart fa-lg mr-1 text-danger"></i>
-                                </p>
-                                {% endif %}
+                                                  <!-- "Like" button / Add to wishlist -->
+                                                  {% if product.id in user_wishlist.products.all %}
+                                                  <p>This product is already in your wishlist.</p>
+                                                    {% else %}
+                                                  <a href="{% url 'add_to_wishlist' product.id %}" class="wishlist-btn">
+                                                    <i class="fas fa-heart"></i> Add to Wishlist
+                                                  </a>
+                                                    {% endif %}
                                                                 
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
