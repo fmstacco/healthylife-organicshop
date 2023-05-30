@@ -1,169 +1,128 @@
 {% load static %}
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
+        <title>Healthy Life Organic Shop {% block extra_title %}{% endblock %}</title>
 
-    {% block meta %}
-        <meta htpp-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description"
-        content="Organic shop that sells organic food, organic fruits, vegetablfes, meats, cupboard food">
-        <meta name="keywords"
-        content="organic shop, organic fruit, organic vegetables, organic box, organic veg, fresh fruit, fresh vegetable, 100% organic, organic wholefoods, organic vegetables, Ireland ">
-        <meta name="author" content="Fabiana Tacco">
-    {% endblock %}
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.png' %}">
 
-    {% block extra_meta %}
-    {% endblock %}
-    
-    <!-- Boostrap CSS -->
-    {% block corecss %}      
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        {% block meta %}
+        <meta htpp-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Organic shop that sells organic food, organic fruits, vegetablfes, meats, cupboard food" />
+        <meta name="keywords" content="organic shop, organic fruit, organic vegetables, organic box, organic veg, fresh fruit, fresh vegetable, 100% organic, organic wholefoods, organic vegetables, Ireland " />
+        <meta name="author" content="Fabiana Tacco" />
+        {% endblock %} {% block extra_meta %} {% endblock %}
+
+        <!-- Boostrap CSS -->
+        {% block corecss %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+        <link rel="stylesheet" href="{% static 'css/base.css' %}" />
         <!-- Google Fonts Link -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    
-    
-    {% endblock %}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
 
-    {% block extra_css %}
-    {% endblock %}
+        {% endblock %} {% block extra_css %} {% endblock %} {% block corejs %}
 
-    {% block corejs %}
-
-    <!-- Popper and Boostrap Javascript -->
+        <!-- Popper and Boostrap Javascript -->
         <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    <!-- Stripe -->
+        <!-- Stripe -->
         <script src="https://js.stripe.com/v3/"></script>
 
-    <!-- Font Awesome -->
+        <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/de5916a16b.js" crossorigin="anonymous"></script>
 
-    {% endblock %}
+        {% endblock %} {% block extra_js %} {% endblock %}
 
-    {% block extra_js %}
-    {% endblock %}
-
-    <title>Healthy Life Organic Shop  {% block extra_title %}{% endblock %}</title>
-
-
-  </head>
-  <body>
-    <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>Healthy Life </strong>| Organic Shop</h2>
-                </a>
-            </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <form method="GET" action="{% url 'products' %}">
-                    <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search products">
-                        <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
-                                <span class="icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                    <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+        
+    </head>
+    <body>
+        <header class="container-fluid fixed-top">
+            <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+                <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+                    <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                        <h2 class="logo-font text-black my-0"><strong>Healthy Life </strong>| Organic Shop</h2>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                    <form method="GET" action="{% url 'products' %}">
+                        <div class="input-group w-100">
+                            <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search products" />
+                            <div class="input-group-append">
+                                <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                                    <span class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </button>
                             </div>
-                        </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                            {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_product'%}" class="dropdown-item">Product Management</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                    <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                        <li class="list-inline-item dropdown">
+                            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="text-center">
+                                    <div><i class="fas fa-user fa-lg"></i></div>
+                                    <p class="my-0">My Account</p>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                                {% if request.user.is_authenticated %} {% if request.user.is_superuser %}
+                                <a href="{% url 'add_product'%}" class="dropdown-item">Product Management</a>
                                 {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                 <a href="{% url 'wishlist' %}" class="dropdown-item">Wishlist</a>
                                 <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                            {% else %}
+                                {% else %}
                                 <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
                                 <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                            {% endif %}
-                        </div>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag'%}">
-                            <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                                <p class="my-0">
-                                    {% if grand_total %}
-                                        €{{ grand_total|floatformat:2 }}
-                                    {% else %}
-                                        €0.00
-                                    {% endif %}
-                                </p>
+                                {% endif %}
                             </div>
-                        </a>    
-                    </li>
-                </ul>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag'%}">
+                                <div class="text-center">
+                                    <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                    <p class="my-0">
+                                        {% if grand_total %} €{{ grand_total|floatformat:2 }} {% else %} €0.00 {% endif %}
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <div class="row bg-white">
+                <nav class="navbar navbar-expand-lg navbar-light w-100">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    {% include 'includes/mobile-top-header.html' %} {% include 'includes/main-nav.html' %}
+                </nav>
+            </div>
+            <div id="delivery-banner" class="row text-center">
+                <div class="col bg-black text-white">
+                    <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>
+                </div>
+            </div>
+        </header>
+
+        {% if messages %}
+        <div class="message-container">
+            {% for message in messages %} {% with message.level as level %} {% if level == 40 %} {% include 'includes/toasts/toast_error.html' %} {% elif level == 30 %} {% include 'includes/toasts/toast_warning.html' %} {% elif level == 25
+            %} {% include 'includes/toasts/toast_success.html' %} {% else %} {% include 'includes/toasts/toast_info.html' %} {% endif %} {% endwith %} {% endfor %}
         </div>
-        <div class="row bg-white">
-            <nav class="navbar navbar-expand-lg navbar-light w-100">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                {% include 'includes/mobile-top-header.html' %}
-                {% include 'includes/main-nav.html' %}
-            </nav>
-        </div>
-        <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
-            </div>            
-        </div>
-    </header>
-
-    {% if messages %}
-    <div class="message-container">
-        {% for message in messages %}
-            {% with message.level as level %}
-                {% if level == 40 %}
-                    {% include 'includes/toasts/toast_error.html' %}
-                {% elif level == 30 %}
-                    {% include 'includes/toasts/toast_warning.html' %}
-                {% elif level == 25 %}
-                    {% include 'includes/toasts/toast_success.html' %}
-                {% else %}
-                    {% include 'includes/toasts/toast_info.html' %}
-                {% endif %}
-            {% endwith %}
-        {% endfor %}
-    </div>
-{% endif %}
-
-    {% block page_header %}
-    {% endblock %}
-
-    {% block content %}
-    {% endblock %}
-
-
-
-    
-    {% block postloadjs %}
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
-    {% endblock %}
-
+        {% endif %} {% block page_header %} {% endblock %} {% block content %} {% endblock %} {% block postloadjs %}
+        <script type="text/javascript">
+            $(".toast").toast("show");
+        </script>
+        {% endblock %}
     </body>
 </html>
