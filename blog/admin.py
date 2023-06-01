@@ -6,13 +6,13 @@ from .models import Post, Comment, Category
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    list_display = ('title', 'author', 'created_on')
+    list_display = ('title', 'author', 'created_on', 'category')
     list_filter = ('author', 'created_on')
     search_fields = ('title', 'content')
 
     fieldsets = (
         (None, {
-            'fields': ('title', 'author', 'content')
+            'fields': ('title', 'author', 'content', 'category')
         }),
     )
 
@@ -26,3 +26,4 @@ class CommentAdmin(admin.ModelAdmin):
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name',)
+

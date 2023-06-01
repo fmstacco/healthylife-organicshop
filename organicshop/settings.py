@@ -31,7 +31,7 @@ DEBUG = True
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # DEBUG = 'DEVELOPMENT' in os.environ
-ALLOWED_HOSTS = ['organic-shop.herokuapp.com', 'localhost', '8000-fmstacco-healthylifeorg-230l1g8tlet.ws-eu97.gitpod.io']
+ALLOWED_HOSTS = ['organic-shop.herokuapp.com', 'localhost', '8000-fmstacco-healthylifeorg-230l1g8tlet.ws-eu98.gitpod.io']
 
 
 # Application definition
