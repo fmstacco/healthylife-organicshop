@@ -1,9 +1,20 @@
 
-    <title>{{ post.title }}</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+  <div class="container bg-light">
     <h1>{{ post.title }}</h1>
     <p>Author: {{ post.author }}</p>
-    <p>Date: {{ post.created_on }}</p>
+    <p>Created on: {{ post.created_on }}</p>
     <p>{{ post.content }}</p>
-</body>
+  </div>
+{% endblock %}
