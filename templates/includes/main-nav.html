@@ -1,5 +1,6 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <!--Browse All Dropdown Menu-->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Browse All
@@ -11,6 +12,7 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
+        <!--Organic Fresh Produce Dropdown Menu-->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="fresh-produce-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Organic Fresh Produce
@@ -22,7 +24,7 @@
                 <a href="{% url 'products' %}?category=organic-fruits,organic-vegetables,bulk-buy" class="dropdown-item">All Fresh Produce</a>
             </div>
         </li>
-
+        <!--Organic Groceries Dropdown Menu-->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="organic-groceries-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Organic Groceries
@@ -35,9 +37,9 @@
                 <a href="{% url 'products' %}?category=Cupboard,pasta-rice,jams-spreads,meat-fish" class="dropdown-item">All Groceries</a>
             </div>
         </li>
-
+        <!--Special Offers Dropdown Menu-->
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black hover-success mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -47,5 +49,16 @@
                 <a href="{% url 'products' %}?category=veg-box,fruit-box,rescue-corner" class="dropdown-item">All Specials</a>
             </div>
         </li>
+        <!--Blog Dropdown Menu-->
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-posts-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                <a href="{% url 'blog_list' %}?category=health-advice" class="dropdown-item ">Health Advice</a>
+                <a href="{% url 'blog_list' %}?category=weight-loss" class="dropdown-item ">Weight Loss</a>
+                <a href="{% url 'blog_list' %}?category=recipes" class="dropdown-item">Recipes</a>
+                <a href="{% url 'blog_list' %}" class="dropdown-item">All Posts</a>
+            </div>
+        </li>
     </ul>
-</div>
