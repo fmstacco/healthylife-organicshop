@@ -2,26 +2,25 @@
 {% load static %}
 
 {% block content %}
-<footer class="footer">
+<footer class="footer container-fluid py-4 bg-success">
   <div class="container">
-    <footer class="py-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3 text-white">
-          <h5>Section</h5>
+          <h5 class="fw-bolder">Organic Shop</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-white ">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-white">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-white">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'home' %}" class="nav-link p-0 text-body-secondary text-white ">Home</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'products' %}" class="nav-link p-0 text-body-secondary text-white">Products</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'blog_list' %}" class="nav-link p-0 text-body-secondary text-white">Blog</a></li>
 
           </ul>
         </div>
   
         <div class="col-6 col-md-2 mb-3 text-white">
-          <h5>Section</h5>
-          <ul class="list-unstyled d-flex" >
-            <li><a href="https://www.facebook.com/your-page"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/your-page"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/your-page"><i class="fab fa-instagram"></i></a></li>
+          <h5>Follow us!</h5>
+          <ul class="nav flex-column" >
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook text-white fs-4 p-0"></i></a></li>
+            <li><a href="https://www.twitter.com/"><i class="fab fa-twitter text-white fs-4"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram text-white fs-4"></i></a></li>
 
           </ul>
         </div>
