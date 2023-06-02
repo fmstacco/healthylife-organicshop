@@ -44,7 +44,7 @@ Table of Content
     * [Known Bugs](<#known-bugs>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
-    * [Contents](<#contents>)
+    * [Content](<#content>)
     * [Media](<#media>)
 * [**Acknowledgements**](<#acknowledgements>)
 
@@ -60,6 +60,9 @@ Healthy Life Organic Shop is a business that only operates online through its ec
 
 ## Marketing Techniques
 
+### Email Marketing
+
+A newsletter is an important marketing technique to keep in touch with clients. Providing the ethos of the organic shop we want to make it in a mindful way to keep connected to our valued customers. At Healthy Life Organic Shop, we understand the importance of staying connected with our valued customers. We utilize the power of the Mailchimp newsletter to keep the customers informed and engaged. Our newsletter brings the latest updates on new products, exclusive deals, and products on season,  and also keeps the customers informed about our blog posts, providing you with valuable insights and tips for maintaining a healthy lifestyle.
 
 ## Project Management
 
@@ -70,10 +73,6 @@ Healthy Life Organic Shop is a business that only operates online through its ec
 ![Github Dashboard](media/user-stories-kanban.png)
 
 [Back to top](<#table-of-content>)
-
-
-### Email Marketing
-
 
 
 ## Technologies Used
@@ -110,9 +109,7 @@ Healthy Life Organic Shop is a business that only operates online through its ec
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS.
 * [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
 
-
-* [**Credits**](<#credits>)
-
+[Back to top](<#table-of-content>)
 
 ## Credits
 
@@ -124,12 +121,11 @@ Healthy Life Organic Shop is a business that only operates online through its ec
 [Green Earth Organics](https://www.greenearthorganics.ie/) - the description of the products was taken from this ecommerce Green Earth Organics, which was also an inpiration for this project.
 [Evergreen](https://evergreen.ie/blogs) - I got the content for the blog posts.
 
-
 ### Media
 * [Canva](https://canva.com/) - I got the image for hero home page under the Pro subscription. 
 * [The Organic Shop](https://theorganicshop.ie/) - I got all the images for the products from The Organic Shop, which was also an inspiration for this project.
 
+[Back to top](<#table-of-content>)
 
 Fabiana Tacco (2023)
 
-[Back to top](<#contents>)
