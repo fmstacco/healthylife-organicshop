@@ -35,7 +35,7 @@
                 {% if product in user_wishlist.products.all %}
                     <p>This product is already in your wishlist.</p>
                 {% else %}
-                    <a href="{% url 'add_to_wishlist' product.id %}" class="wishlist-btn">
+                    <a href="{% url 'add_to_wishlist' product.id %}" class=" text-success wishlist-btn">
                         <i class="fas fa-heart"></i> Add to Wishlist
                     </a>
                 {% endif %}
