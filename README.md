@@ -116,6 +116,8 @@ A newsletter is an important marketing technique to keep in touch with clients. 
 ### Code
 [Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1) - This project is so far fully based on Boutique Ado walkthrough which will be customized in the next submission.
 [Stackoverflow](https://stackoverflow.com/) - helped me along the way with some bugs. 
+[Ricardo Maroquio](https://www.youtube.com/watch?v=3dobl8hdeYw) - inspirations for the code for ecommerce organic shop.
+[Denis Ivy](https://www.youtube.com/watch?v=_ELCMngbM0E&list=PL-51WBLyFTg0omnamUjL1TCVov7yDTRng) - tutorial on Django Ecommerce Website 
 
 ### Content 
 [Green Earth Organics](https://www.greenearthorganics.ie/) - the description of the products was taken from this ecommerce Green Earth Organics, which was also an inpiration for this project.
