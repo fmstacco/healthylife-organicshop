@@ -4,6 +4,77 @@ Healthy Life Organic Shop is an e-commerce store that sells organic products.
 
 Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" target="_blank">Healthy Life Organic Shop</a>
 
+Table of Content
+
+* [**Project**](<#project>)
+    * [Website Goals](<#website-goals>)
+    * [Site Users Goal](<#site-users-goal>)
+    * [Site Owners Goal](<#site-owners-goal>)
+    * [Business Model](<#business-model>)
+    * [Marketing Techniques](<#marketing-techniques>)
+    * [Project Management](<#project-management>)
+* [**User Experience (UX)**](<#user-experience-ux>)
+    * [Wireframes](<#wireframes>)
+    * [User Stories](<#user-stories>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+* [**Features**](<#features>)
+    * [Navbar](<#navbar>)
+    * [Home Page](<#home-page>)
+    * [Products](<#products>)
+    * [Product Details](<#product-details>)
+    * [Blog](<#blog>)
+    * [My Account](<#my-account>)
+    * [Django-allauth Features](<#django-allauth-features>)
+    * [Add Product](<#add-product>)
+    * [Login](<#login>)
+    * [Shopping Bag](<#shopping-bag>)
+    * [Checkout](<#checkout>)
+    * [Order Confirmation](<#order-confirmation>)
+    * [Footer](<#footer>)
+    * [Toasts](<#toasts>)
+* [**Future Features**](<#future-features>)
+* [**Technologies Used**](<#technologies-used>)
+    * [Languages](<#languages>)
+    * [Frameworks & Software](<#frameworks--software>)
+* [**Testing**](<#testing>)
+    * [Testing User Stories](<#testing-user-stories>)
+    * [Code Validation](<#code-validation>)
+    * [Additional Testing](<#additional-testing>)
+    * [Known Bugs](<#known-bugs>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [Contents](<#contents>)
+    * [Media](<#media>)
+* [**Acknowledgements**](<#acknowledgements>)
+
+
+## Website Goals
+
+Healthy Life Organic Shop is a fictional online ecommerce B2C offering a great range of organic products, including fresh produce and groceries. Our goal is to provide a convenient and reliable platform for individuals seeking a healthier lifestyle. 
+
+
+## Business Model
+
+Healthy Life Organic Shop is a business that only operates online through its ecommerce. We sell fresh produce, groceries and a wide range of products directly to the consumer, B2C business model. We work directly with organic farmers and producers ensuring that our customers have access to a wide range of fresh and sustainable products while supporting local Irish farmers. 
+
+## Marketing Techniques
+
+
+## Project Management
+
+### GitHub Project
+
+* I have created a kanban project dashboard to manage the project progress. 
+
+![Github Dashboard](media/user-stories-kanban.png)
+
+[Back to top](<#table-of-content>)
+
+
+### Email Marketing
+
+
 
 ## Technologies Used
 
@@ -50,7 +121,9 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
 [Stackoverflow](https://stackoverflow.com/) - helped me along the way with some bugs. 
 
 ### Content 
-[Green Earth Organics](https://www.greenearthorganics.ie/) - the description of the products was taken from this ecommerce Green Earth Organics, which was also an inpiration for this project.. 
+[Green Earth Organics](https://www.greenearthorganics.ie/) - the description of the products was taken from this ecommerce Green Earth Organics, which was also an inpiration for this project.
+[Evergreen](https://evergreen.ie/blogs) - I got the content for the blog posts.
+
 
 ### Media
 * [Canva](https://canva.com/) - I got the image for hero home page under the Pro subscription. 
