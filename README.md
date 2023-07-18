@@ -145,9 +145,9 @@ Healthy Life Organic Shop ecommerce website has gone through intensive tests thr
 CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to validate Python code as at the time of this project submission the validator PEP8 [pep8online](http://pep8online.com/) is offline. I have tested the following Python files:
 
 
-* **Blog App - Python Validation**
+* **Bag App - Python Validation**
 
-![PEP8 validation image - Blog App ](./static/images/readme/python-ci-validation-blog-app.jpg) 
+![PEP8 validation image - Bag App ](./static/images/readme/python-ci-validation-bag-app.jpg) 
 
 * **Profiles App - Python Validation**
 
