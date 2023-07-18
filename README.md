@@ -132,9 +132,9 @@ Healthy Life Organic Shop ecommerce website has gone through intensive tests thr
 
 **CSS validation** 
 
-[W3C CSS Validator](https://jigsaw.w3.org/w3-css-validator-organic-shop) has been used to validate the CSS. 
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS. 
 
-![CSS validation image ](./static/images/readme/w3-css-validator.jpg) 
+![CSS validation image ](./static/images/readme/w3-css-validator-organic-shop.jpg) 
 
 **JavaScript validation image**
 
