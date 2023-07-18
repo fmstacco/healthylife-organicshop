@@ -6,6 +6,8 @@ This is a fictional website that was created for Portfolio Project 5 - Diploma i
 
 Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" target="_blank">Healthy Life Organic Shop</a>
 
+![Organic Shop responsive design](./static/images/readme/multidevice-organic-shop.jpg)
+
 Table of Content
 
 * [**Project**](<#project>)
