@@ -115,6 +115,187 @@ A newsletter is an important marketing technique to keep in touch with clients. 
 
 [Back to top](<#table-of-content>)
 
+
+
+## Testing
+
+### Code Validation
+
+Healthy Life Organic Shop ecommerce website has gone through intensive tests throughout its pages and sections/screens.The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [CI Python Linther](https://pep8ci.herokuapp.com/) to validate Python. Additional tests, such as browser tests, manual testing, responsiveness test, testing user stories among others have been carried on as shown below. 
+
+**HTML validation** 
+
+[W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML. 
+
+![HTML validation image ](./static/images/readme/w3-html-validator.jpg) 
+
+
+**CSS validation** 
+
+[W3C CSS Validator](https://jigsaw.w3.org/w3-css-validator-organic-shop) has been used to validate the CSS. 
+
+![CSS validation image ](./static/images/readme/w3-css-validator.jpg) 
+
+**JavaScript validation image**
+
+![JavaScript validation image ](./static/images/readme/javascript-validation.jpg) 
+
+**PEP8 CI Python Linther**
+
+CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to validate Python code as at the time of this project submission the validator PEP8 [pep8online](http://pep8online.com/) is offline. I have tested the following Python files:
+
+
+* **Blog App - Python Validation**
+
+![PEP8 validation image - Blog App ](./static/images/readme/python-ci-validation-blog-app.jpg) 
+
+* **Profiles App - Python Validation**
+
+![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.jpg) 
+
+[Back to testing](<#testing>)
+
+
+### Browser Testing
+
+Healthy Life Organic Shop was manually tested on these browsers as table below and design, layout, functionality and, responsiveness were consistent across all browsers both mobile and desktop.
+
+|   Browser   |    Result  | 
+| :---------: | :---------:| 
+| Chrome      |   pass     | 
+| Edge        |   pass     |
+| Firefox     |   pass     |
+| Safari      |   pass     |
+| IE          |   pass     | 
+
+### Responsiveness Test
+
+Healthy Life Organic Shop ecommerce website was manually tested for its responsiveness with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+
+|        | Nexus 4/5/6 | Galaxy S5/S6/S7 | iPhone 6--12 | iPad |  Display <1200px | Display >1200px |
+|--------|-------------|-----------------|--------------|------|------------------|-----------------|
+| Render |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+| Images |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+| Links  |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+
+
+### Manual Testing
+
+Healthy Life Organic Shop ecommerce website has been extensively tested both on the Gitpod terminal and the Heroku deployed version on the browser. It has been checked features, responsiveness, accessibility, layout, design, texts, buttons and navigation links and form submission on different browsers. 
+All tests made aimed to achieve the best user experience in system navigation, so that the user can follow an intuitive and easy flow at all system contact points.
+
+Below are some examples of features tested manually.  
+
+| Test Case              | Description                                                         | Expected Result                                             | Pass/Fail |
+|------------------------|---------------------------------------------------------------------|-------------------------------------------------------------|-----------|
+| Page 404               | Verify if the 404 page is working                                    | Typing in an incorrect URL loads the 404 error page        | pass      |
+| Logo                   | Verify if the logo redirects to the home page                        | Clicking the logo redirects the user to the home page       | pass      |
+| Home Button            | Verify if the home button redirects to the home page                 | Clicking the home button redirects the user to the home page | pass      |
+| Home Page              | Verify the content and layout of the home page                       | All sections and elements are displayed                    | pass      |
+| Play Ideas Button      | Verify if the play ideas button loads the play ideas list            | Clicking the play ideas button displays the play ideas list | pass      |
+| Play Ideas Page        | Check if the play ideas are listed correctly                         | Play ideas are displayed in a grid layout                  | pass      |
+| Post Detail Page       | Ensure the post detail page shows correct content                    | Post content, comments, and likes are shown                 | pass      |
+| User Registration      | Test the user registration process                                   | User can successfully register                              | pass      |
+| User Login             | Test the user login process                                          | User can successfully log in                                 | pass      |
+| Add Post               | Test the functionality to add a new play idea for logged users       | New play idea is added to the blog                          | pass      |
+| Update Post            | Test updating an existing play idea                                  | Play idea is updated successfully                           | pass      |
+| Delete Post            | Test deleting a play idea                                            | Play idea is deleted from the blog                          | pass      |
+| Nav Links Footer       | Check if the navigation links in the footer are working              | Clicking on a footer nav link redirects to the page         | pass      |
+| Social Links           | Test if social links in the footer open in a new window              | Clicking on a social link opens a new window                | pass      |
+| Subscribe Newsletter   | Test the subscribe newsletter feature                                | User can submit their email and is redirected to a thank you page | pass |
+| Profile Page           | Check if the profile page is loading correctly                       | User can view their profile page                            | pass      |
+| Update Profile         | Check if users can update their profile with a bio and picture       | Users can upload a profile picture and add a bio            | pass      |
+| Clear Profile          | Check if users can clear their bio and picture from their profile    | Users can remove their profile picture and bio              | pass      |
+| User's Posts - Profile | Check if users can see and access their own added play ideas         | Users can view and access their own play ideas              | pass      |
+| Feedback Messages      | Check if feedback messages are displayed in relevant submissions     | Users receive appropriate feedback messages                 | pass      |
+
+
+
+### Testing User Stories
+
+#### **Site User**
+
+| Expectation                         | Result                          |
+| :---------------------------------: | :------------------------------:|
+|  As a Site User I can view a list of play ideas so that I can select one to read | **[Play Ideas Page]**  |
+|  As a Site User I can click on a play idea that I can read the full play idea | **[Play Idea Detail Page]**| 
+|  As a Site User I can view the number of likes on each play idea so that I can see which is the most popular or viral |**[Home, Play Ideas and Detail Pages]**|
+| As a Site User I can view comments on an individual play ideas so that I can read the conversation | **[Play Idea Detail Page]**| 
+|   As a Site User I can register an account so that I can add, update, delete play ideas, comment and like them and also have a profile | **[Register/Sign Up Page]**| 
+| As a Site User | I can create, read, update and delete play ideas so that I can manage my blog content | **[Add, Update, Delete Play Idea page]** |
+| As a Site User I can leave comments on a play idea so that I can be involved in the conversation |**[Play Idea Detail Page]** |
+| As a Site User I can like or unlike a play idea so that I can interact with the content | **[Play Idea Detail Page]** |
+| As a Site User I can access the blog on different devices (mobile, tablet, desktop) for a seamless browsing experience | &check; |
+| As a Site User I can create a profile by adding my bio and picture profile so that other users can read about who I am |**[Profile Page]** |
+| As a Site User I can update a profile by updating my bio and picture profile so that upload a better bio and/or picture profile, or even remove it. | **[Profile Page]** |
+| As a Site User I can see the play ideas I have created so that I can update or delete them | **[Profile Page]**  |
+| As a Site User I can subscribe to a newsletter so that I can receive monthly emails with the new play ideas |**[Footer ]**  |
+| As a Site User I can log out from the Its4kids blog so that I can feel safe that nobody can access my information | **[Logout page]** |
+| As a Site User I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | **[Flash messages]** |
+
+#### **Site Admin**
+
+| Expectation                         | Result                          |
+| :---------------------------------: | :------------------------------:|
+| As a Site Admin I can create, read, update and delete play ideas so that I can manage my blog content | **[Add, Update, Delete Play Idea page]**  |
+| As a Site Admin I can create draft play ideas so that I can finish writing the content later| **[Add, Update, Delete Play Idea page]**  |
+| As a Site Admin I can create new categories through django admin dashboard so that the play ideas are organized by categories | **[Django Dashboard]**  |
+| As a Site Admin I can approve or disapprove comments on play ideas so that I can provide a safe environment for the users | **[Django Dashboard]**|
+
+
+[Back to top](<#contents>)
+
+
+### Bugs Fixed
+
+Along the development of Its4kids application some error appeared during the debug process which were corrected, for example programming errors due to not running migrations, path errors, among others. Also during the website testing process some smaller errors appeared on the code validation and they were immediately corrected. 
+
+Follow below some examples:
+
+![Home Page - Bugs Fixed ](./static/images/readme/html-bugs-fixed.png) 
+
+![Programming Error - Bugs Fixed ](./static/images/readme/fixed-bugs-programmingError.jpg) 
+
+![Redirect - Bugs Fixed ](./static/images/readme/fixed-bugs-redirect.jpg) 
+
+![IntegrityError - Bugs Fixed ](./static/images/readme/bug-fixed-integrityError.png) 
+
+
+
+### Additional Testing
+
+### Acessibility 
+
+The website color accessibility was checked by using [A11y](https://color.a11y.com/).
+
+![Acessibility validation image ](./static/images/readme/a11y-acessibility-validator-organic-shop.jpg) 
+
+### Lighthouse
+
+A test was conducted using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) within Chrome Developer Tools. 
+
+It tests each of the pages for ***performance, accessibility, best practices and, SEO***
+
+The performance score of 73% can be significantly enhanced by simply resizing all the images used on the website.
+
+![Lighthouse test results](./static/images/readme/lighthouse-desktop.jpg)
+
+
+[Back to top](<#contents>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Credits
 
 ### Code
