@@ -72,6 +72,10 @@ A newsletter is an important marketing technique to keep in touch with clients. 
 
 To establish a strong online presence for Healthy Life Organic Shop, we have chosen Facebook and Instagram. By utilizing these popular social media platforms, we aim to expand our reach and attract a larger customer base to our ecommerce store. We also intend to foster closer connections with our customers through engaging content and personalized interactions.
 
+The Instagram page is still in progress. Both will be alocated as an asset of Facebook Meta Business Suite, which will allows the management of several aspects such as manage posts and also advertising.  
+
+The navlinks for the social media pages can be acessed from the Footer.
+
 
 <details><summary><b>Healthy Life Organic Shop Facebook Page</b></summary>
 
