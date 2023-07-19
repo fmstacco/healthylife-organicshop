@@ -312,7 +312,10 @@ The performance score of 73% can be significantly enhanced by simply resizing al
 * [Canva](https://canva.com/) - I got the image for hero home page under the Pro subscription. 
 * [The Organic Shop](https://theorganicshop.ie/) - I got all the images for the products from The Organic Shop, which was also an inspiration for this project.
 
+# Acknowledgements
+
+Healthy Life Organic shop was designed and developed for Portfolio 5 project, a requirement of Full Stack Software Developer Diploma Course (Eccommerce) at the [Code Institute](https://codeinstitute.net/). First of all I would like express my gratitude to Bethany from the Student Care, without her huge support, encouragement and understanding I would not be able to complete this project. I also would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), my Cohort facilitators, my Cohort colleagues, the Slack community and the Tutor Assistance for all guidance and support during this journey. I am also thankful to the ***Mayo, Sligo and Leitrim Education Training Board (msletb)*** for this opportunity. I  would also like to say thank you to my family, my husband Michel and, my children, Alanna, and Peter who is just 17 months old at the time of this project submission. 
+
 [Back to top](<#table-of-content>)
 
 Fabiana Tacco (2023)
-
