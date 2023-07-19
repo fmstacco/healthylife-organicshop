@@ -68,6 +68,16 @@ Healthy Life Organic Shop is a business that only operates online through its ec
 
 A newsletter is an important marketing technique to keep in touch with clients. Providing the ethos of the organic shop we want to make it in a mindful way to keep connected to our valued customers. At Healthy Life Organic Shop, we understand the importance of staying connected with our valued customers. We utilize the power of the Mailchimp newsletter to keep the customers informed and engaged. Our newsletter brings the latest updates on new products, exclusive deals, and products on season,  and also keeps the customers informed about our blog posts, providing you with valuable insights and tips for maintaining a healthy lifestyle.
 
+### Facebook Page
+
+To establish a strong online presence for Healthy Life Organic Shop, we have chosen Facebook and Instagram. By utilizing these popular social media platforms, we aim to expand our reach and attract a larger customer base to our ecommerce store. We also intend to foster closer connections with our customers through engaging content and personalized interactions.
+
+
+<details><summary><b>Healthy Life Organic Shop Facebook Page</b></summary>
+
+<img src="./static/images/readme/facebook-page" alt="Facebook Page"></details>
+
+
 ## Project Management
 
 ### GitHub Project
