@@ -79,4 +79,3 @@ def delete_from_wishlist(request, product_id):
     messages.add_message(request, messages.SUCCESS, 'Product deleted from your wishlist.')
 
     return redirect('wishlist')
-    

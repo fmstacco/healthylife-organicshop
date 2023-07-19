@@ -154,9 +154,45 @@ CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to v
 <img src="./static/images/readme/python-ci-validation-blog-app.jpg" alt="Blog App Python Validation"></details>
 
 
-* **Profiles App - Python Validation**
+**App Checkout**
+*  __init__.py - All clear, no errors found.
+* admin.py - All clear, no errors found.
+* apps.py - All clear, no errors found.
+* forms.py - All clear, no errors found.
+* models.py - 5 line-too-long errors reported which I decided to keep it according to code style.
+* signals.py - All clear, no errors found.
+* urls.py - All clear, no errors found.
+* views.py - 5 line-too-long errors reported which I decided to keep it according to code style.
+* webhook_handler.py - 3 line-too-long errors reported which I decided to keep it according to code style.
+* webhooks.py - All clear, no errors found.
 
-![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.jpg) 
+**App Home**
+* apps.py - All clear, no errors found.
+* urls.py - All clear, no errors found.
+* views.py - All clear, no errors found.
+
+**App Products**
+* admin.py - All clear, no errors found.
+* apps.py - All clear, no errors found.
+* forms.py - All clear, no errors found.
+* models.py - All clear, no errors found.
+* urls.py - All clear, no errors found.
+* views.py - 4 line-too-long errors reported which I decided to keep it according to code style.
+
+**App Profiles**
+* apps.py - All clear, no errors found.
+* forms.py - All clear, no errors found.
+* models.py - 5 line-too-long errors reported which I decided to keep it according to code style.
+* urls.py - All clear, no errors found.
+* views.py - 3 line-too-long errors reported which I decided to keep it according to code style.
+
+**organicshop**
+* urls.py - All clear, no errors found.
+* views.py - All clear, no errors found.
+
+**other**
+* custom_storages.py - All clear, no errors found.
+
 
 [Back to testing](<#testing>)
 
