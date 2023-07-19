@@ -16,6 +16,7 @@ class PostAdmin(admin.ModelAdmin):
         }),
     )
 
+
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('post', 'author', 'created_on')
@@ -26,4 +27,3 @@ class CommentAdmin(admin.ModelAdmin):
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name',)
-

@@ -149,6 +149,13 @@ CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to v
 
 ![PEP8 validation image - Bag App ](./static/images/readme/python-ci-validation-bag-app.jpg) 
 
+* **Blog App - Python Validation**
+
+<details><summary><b>Blog Python Validation</b></summary>
+
+<img src="./static/images/readme/python-ci-validation-blog-app.jpg" alt="Blog App Python Validation"></details>
+
+
 * **Profiles App - Python Validation**
 
 ![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.jpg) 
