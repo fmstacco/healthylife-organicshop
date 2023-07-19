@@ -64,9 +64,14 @@ Healthy Life Organic Shop is a business that only operates online through its ec
 
 ## Marketing Techniques
 
-### Email Marketing
+### Email Marketing - Mailchimp Newsletter
 
 A newsletter is an important marketing technique to keep in touch with clients. Providing the ethos of the organic shop we want to make it in a mindful way to keep connected to our valued customers. At Healthy Life Organic Shop, we understand the importance of staying connected with our valued customers. We utilize the power of the Mailchimp newsletter to keep the customers informed and engaged. Our newsletter brings the latest updates on new products, exclusive deals, and products on season,  and also keeps the customers informed about our blog posts, providing you with valuable insights and tips for maintaining a healthy lifestyle.
+
+<details><summary><b>Mailchimp Newsletter</b></summary>
+
+<img src="./static/images/readme/subscription-confirmed.jpg" alt="Facebook Page">
+<img src="./static/images/readme/audience-mailchimp.jpg" alt="Mailchimp Newsletter"></details>
 
 ### Facebook Page
 
@@ -79,7 +84,7 @@ The navlinks for the social media pages can be acessed from the Footer.
 
 <details><summary><b>Healthy Life Organic Shop Facebook Page</b></summary>
 
-<img src="./static/images/readme/facebook-page" alt="Facebook Page"></details>
+<img src="./static/images/readme/facebook-page.jpg" alt="Facebook Page"></details>
 
 
 ## Project Management
