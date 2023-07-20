@@ -11,7 +11,7 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
 Table of Content
 
 * [**Project**](<#project>)
-    * [Website Goals](<#website-goals>)
+    * [Objective](<#objective>)
     * [Site Users Goal](<#site-users-goal>)
     * [Site Owners Goal](<#site-owners-goal>)
     * [Business Model](<#business-model>)
@@ -53,18 +53,30 @@ Table of Content
 * [**Acknowledgements**](<#acknowledgements>)
 
 
-## Website Goals
 
-Healthy Life Organic Shop is a fictional online ecommerce B2C offering a great range of organic products, including fresh produce and groceries. Our goal is to provide a convenient and reliable platform for individuals seeking a healthier lifestyle. 
+# **Project**
 
+## Objective
+
+Healthy Life Organic Shop is a fictional online ecommerce B2C offering a great range of organic products, including fresh produce and groceries. Our objective is to provide a convenient and reliable platform for individuals seeking a healthier lifestyle. 
+
+## Site Users Goal
+
+The site user's goal is to find and purchase organic products in an easy and convenient way through a secure and user-friendly shopping experience. Site users want to explore and learn about a wide range of organic items, including fresh produce, pantry essentials, personal care products, and more so they can make a purchase that supports a healthier and more sustainable lifestyle. They also expect reliable delivery services.
+
+## Site Owners Goal
+
+The site owner's goal is to provide a positive and user-friendly shopping experience through a robust e-commerce platform with adequate website design, navigation, and checkout process to make it easy and enjoyable for customers to find and purchase organic products.
 
 ## Business Model
 
 Healthy Life Organic Shop is a business that only operates online through its ecommerce. We sell fresh produce, groceries and a wide range of products directly to the consumer, B2C business model. We work directly with organic farmers and producers ensuring that our customers have access to a wide range of fresh and sustainable products while supporting local Irish farmers. 
 
+[Back to project](<#project>)
+
 ## Marketing Techniques
 
-### Email Marketing - Mailchimp Newsletter
+### Mailchimp Newsletter
 
 A newsletter is an important marketing technique to keep in touch with clients. Providing the ethos of the organic shop we want to make it in a mindful way to keep connected to our valued customers. At Healthy Life Organic Shop, we understand the importance of staying connected with our valued customers. We utilize the power of the Mailchimp newsletter to keep the customers informed and engaged. Our newsletter brings the latest updates on new products, exclusive deals, and products on season,  and also keeps the customers informed about our blog posts, providing you with valuable insights and tips for maintaining a healthy lifestyle.
 
@@ -86,6 +98,8 @@ The navlinks for the social media pages can be acessed from the Footer.
 
 <img src="./static/images/readme/facebook-page.jpg" alt="Facebook Page"></details>
 
+
+[Back to project](<#project>)
 
 ## Project Management
 
