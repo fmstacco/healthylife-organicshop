@@ -384,41 +384,59 @@ Below are some examples of features tested manually.
 
 ### Epic 1 - Viewing And Navigation
 
-* #1 As a Shopper / User I want to be able to view a list of organic products so that I can select some to purchase.
+* As a Shopper / User I want to be able to view a list of organic products so that I can select some to purchase.(#1) 
    
     * At the top of the website, there is a navigation bar where the shopper / user can select to see * all products*, *organic fresh produce*, *organic groceries* and *special offers*. 
 
-* #2 As a Shopper / User I want to be able to view individual product details so that I can see the price, description, product rating and product image.
+* As a Shopper / User I want to be able to view individual product details so that I can see the price, description, product rating and product image.(#2)
 
-    *When on the products page, the Shopper / User can click on the individual product to see the product details such as description, product rating, price, image and others.
+    * When on the products page, the Shopper / User can click on the individual product to see the product details such as description, product rating, price, image and others.
 
-* #3 As a Shopper / User I want to be able to quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I would like to purchase.
+* As a Shopper / User I want to be able to quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I would like to purchase.(#3)
 
-    *At the top of the website, there is a navigation button called *special offers* where Shopper / User can quickly identify deals and special offers.
+    * At the top of the website, there is a navigation button called *special offers* where Shopper / User can quickly identify deals and special offers.
 
-* #4 As a Shopper / User I want to be able to easily view the total of my purchases at any time so that I can avoid spending too much.
+* As a Shopper / User I want to be able to easily view the total of my purchases at any time so that I can avoid spending too much.(#4)
 
     * At the right corner of the screen the Shopper / User can see the total amount of the current organic products that are on the bag and also a bag icon. The user can also click the bag icon to see the shopping bag.
 
-* #22 As a Shopper / User I want to be able to view blog posts so that I can get the latest information on organic products.
+* As a Shopper / User I want to be able to view blog posts so that I can get the latest information on organic products.(#22)
 
     * At the top of the website, there is a navigation button called *blog* where the Shopper / User can click and choose to see the following categories: *health advice*, *weight loss*, *recipes* or *all posts*.
 
-* #23 As a Shopper / User I want to receive visual feedback while interacting with the content so that I can validate how I have interacted with the page.
+* As a Shopper / User I want to receive visual feedback while interacting with the content so that I can validate how I have interacted with the page.
 
-    * When a Shopper / Site User interacts with the content, (i.e. deleting, updating, login, logout etc..) they receive visual feedback through flash messages saying, for example: "Removed Organic Blueberries from your bag"
+    * When a Shopper / Site User interacts with the content, (i.e. deleting, updating, login, logout etc..) they receive visual feedback through flash messages saying, for example: "Removed Organic Blueberries from your bag".(#23)
 
 
 ### Epic 2 - Registration and User Accounts
-|  | | |
-|:-------:|:--------|:--------|
-| #5 As a Shopper / User | I want to be able to easily register for an account so that I can have a personal account and be able to view my profile| &#9745; |
-| #6 As a Shopper / User | I want to be able to esily login and logout so that I can effortlessly access my personal account information.| &#9745; |
-| #7 As a Shopper / User | I want to be able to  easily recover my password in case I forget it so that I can recover access to my account| &#9746; |
-| #24 As a Shopper / User | I want to log out from the site so that I can ensure the security of my personal information and maintain my privacy. | &#9745; |
-| #8 As a Shopper / User | I want to receive an email confirmation after registering so that I can verify that my account registration was successful. | &#9745; |
-| #9 As a Shopper / User | I want to have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information | &#9745; |
 
+* As a Shopper / User I want to be able to easily register for an account so that I can have a personal account and be able to view my profile.(#5)
+
+    * By clicking the My Account icon the user can then click the Register link and sign up for a new account.
+
+* As a Shopper / User I want to be able to esily login so that I can effortlessly access my personal account information.(#6)
+
+    * By clicking the My Account icon the user can then click the Login link and login into their account. 
+
+
+* As a Shopper / User I want to receive an email confirmation after registering so that I can verify that my account registration was successful.(#8)
+
+    * After the signup process the user will receive an email confirmation and will be asked to confirm their email address. Then they will receive a flash message confirming that successfully registered.   
+
+
+* As a Shopper / User I want to be able to  easily recover my password in case I forget it so that I can recover access to my account.(#7)
+
+    * On the login page the user has the option to click the link "Forgot Passord?" and they can easily recover it through receiving Password Reset E-mail with the instructions.. 
+
+* As a Shopper / User I want to log out from the site so that I can ensure the security of my personal information and maintain my privacy.(#24)
+
+    * When the user is logged in they have the option to 'Log Out' through the navigation menu.
+
+* As a Shopper / User I want to have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information.(#9)
+
+    * While logged in the Shopper / User has the access to their personalized user profile where they can update their information and see order history.
+    
 
 ### Epic 3 - Sorting and Searching
 
