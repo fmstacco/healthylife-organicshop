@@ -137,8 +137,7 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 ### User Stories
 
 ### Epic 1 - Viewing And Navigation
-
-
+|  | | |
 |:-------:|:--------|:--------|
 | #1 As a Shopper / User   | I want to be able to view a list of organic products so that I can select some to purchase | &#9745; |
 | #2 As a Shopper / User | I want to be able to view individual product details so that I can see the price, description, product rating and product image. | &#9745; |
@@ -149,13 +148,32 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 
 
 ### Epic 2 - Registration and User Accounts
-
+|  | | |
 |:-------:|:--------|:--------|
 | #5 As a Shopper / User | I want to be able to easily register for an account so that I can have a personal account and be able to view my profile| &#9745; |
 | #6 As a Shopper / User | I want to be able to esily login and logout so that I can effortlessly access my personal account information.| &#9745; |
 | #7 As a Shopper / User | I want to be able to  easily recover my password in case I forget it so that I can recover access to my account| &#9746; |
-| #24 As a Site User | I want to log out from the site so that I can ensure the security of my personal information and maintain my privacy. | &#9745; |
+| #24 As a Shopper / User | I want to log out from the site so that I can ensure the security of my personal information and maintain my privacy. | &#9745; |
+| #8 As a Shopper / User | I want to receive an email confirmation after registering so that I can verify that my account registration was successful. | &#9746; |
+| #9 As a Shopper / User | I want to have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information | &#9745; |
 
+
+### Epic 3 - Sorting and Searching
+|  | | |
+|:-------:|:--------|:--------|
+| #10 As a Shopper / User | I want to  be able to sort the list of available organic products so that I can easily identify the best rated, best priced and categorically sorted products | &#9745; |
+| #11 As a Shopper / User | I want to  be able to sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort the products in that category name  | &#9745; |
+| #12 As a Shopper / User | I want to  be able to sort  multiple categories of products simultaneously so that I can find the best-priced or best-rated product accross broad categories, such as "all groceries" or "all fresh produce"  | &#9745; |
+| #13 As a Shopper / User | I want to  be able to search for a product by name or description so that I can find a specific product I'd like to purchase  | &#9745; |
+| #14 As a Shopper / User | I want to  be able to easily see what I`ve searched for and the number of results so that I can quickly decide whether the product I want is available  | &#9746; |
+
+### Epic 4 - Purchasing and Checkout
+|  | | |
+|:-------:|:--------|:--------|
+
+
+
+### Epic 5 - Admin and Store Management
 
 
 
