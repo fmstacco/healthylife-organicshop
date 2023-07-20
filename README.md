@@ -170,6 +170,12 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 ### Epic 4 - Purchasing and Checkout
 |  | | |
 |:-------:|:--------|:--------|
+| #16 As a Shopper / User | I want to  be able to view items in my bag to be purchased so that I can identify the total cost of my purchase and all organic items I will receive.  | &#9745; |
+| #17 As a Shopper / User | I want to  be able to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checking out.  | &#9745; |
+| #18 As a Shopper / User | I want to  be able to easily enter my payment information so that I can checkout quickly and with no hassles.  | &#9745; |
+| #19 As a Shopper / User | I want to  be able to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase  | &#9745; |
+| #20 As a Shopper / User | I want to  be able to view an order confirmation after checking out so that I can verify that I haven't made any mistakes  | &#9745; |
+| #21 As a Shopper / User | I want to  be able to receive an email confirmation after checking out so that I can keep the confirmation on what I've purchased for my records.  | &#9745; |
 
 
 
