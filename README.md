@@ -371,7 +371,7 @@ Below are some examples of features tested manually.
 | Sorting by price     | Clicking the *by price* link in the *browse all* menu lists all products and sorts them by price. |    pass   |
 | Sorting by rating     | Clicking the *by rating* link in the *browse all* menu lists all products and sorts them by rating. |    pass   |
 | Sorting by category   |Clicking the *by category* link in the *browse all* menu lists all products and sorts them by category.|    pass   |
-| All Products         | Clicking the *All Products*link in the *browse all* menu lists all products.|    pass   |
+| All Products         | Clicking the *All Products* link in the *browse all* menu lists all products.|    pass   |
 | Organic Fresh Produce dropdown | Clicking the *organic fresh produce* dropdown menu shows fruits, vegetables, bulky buy and all fresh produce menu items. |    pass   | 
 | Fruits menu item | Clicking the *fruits* link in the *organic fresh produce* dropdown menu lists all fruits of this category. |    pass   |
 | Vegetables menu item | Clicking the *vegetables* link in the *organic fresh produce* dropdown menu lists all vegetables of this category. |    pass   |
@@ -582,7 +582,50 @@ The performance score of 73% can be significantly enhanced by simply resizing al
 
 
 
+## Deployment
 
+
+
+
+### **Forking this repository on GitHub**
+
+A fork of this repository can be made which will allow you to make changes to this project without affecting the original repository. 
+
+The steps below should be followed to ***fork*** the respository:
+
+1. Log in to ***GitHub*** and find the [repository](https://github.com/fmstacco/healthylife-organicshop).
+
+2. Click on the button ***fork*** on the right-hand side of the page to create a copy of the original repository in your GitHub account.
+
+See the image below:
+
+![GitHub pages - to fork a depository](./static/images/readme/fork-organic-shop.jpg)
+
+[Back to top](<#contents>)
+
+### **Cloning this project on GitHub**
+
+The steps below should be followed to ***clone*** the respository:
+
+1. On the repository’s page, click on the ***code*** tab.
+2. On the ***Clone with HTTPS*** tab, click on the icon (see image below) to copy the URL.
+
+![Image to clone a repository](./static/images/readme/clone-organic-shop.jpg)
+
+3. Open ***Git Bash*** on your IDE terminal.
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type ***git clone***, and then paste the URL copied from GitHub.
+
+Type: git clone + https://github.com/fmstacco/healthylife-organicshop.git
+
+
+6. Press ***enter*** and the local clone will be created.
+
+
+Help on cloning a repository from GitHub can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+
+[Back to top](<#contents>)
 
 
 
