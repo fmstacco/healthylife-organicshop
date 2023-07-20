@@ -178,7 +178,12 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 | #21 As a Shopper / User | I want to  be able to receive an email confirmation after checking out so that I can keep the confirmation on what I've purchased for my records.  | &#9745; |
 
 
-### Epic 5 - Admin and Store Management
+### Epic 5 - Admin and Store ManagementS
+|  | | |
+|:-------:|:--------|:--------|
+| #25 As a Shopper / User | I want to create a wish list where I can add products I'm interested in, so that I can keep track of items I wish to purchase in the future.  | &#9745; |
+
+
 
 
 
@@ -353,12 +358,28 @@ All tests made aimed to achieve the best user experience in system navigation, s
 
 Below are some examples of features tested manually.  
 
-| Test Case              | Description                                                         | Expected Result                                             | Pass/Fail |
+| Test Case              |  Expected Result                                             | Pass/Fail |
 |------------------------|---------------------------------------------------------------------|-------------------------------------------------------------|-----------|
-| Page 404               | Verify if the 404 page is working                                    | Typing in an incorrect URL loads the 404 error page        | pass      |
-| Logo                   | Verify if the logo redirects to the home page                        | Clicking the logo redirects the user to the home page       | pass      |
-| Home Button            | Verify if the home button redirects to the home page                 | Clicking the home button redirects the user to the home page | pass      |
-| Home Page              | Verify the content and layout of the home page                       | All sections and elements are displayed                    | pass      |
+| Page 404             | Typing in a incorrect URL on the page loads the 404 error page | pass |
+| Logo                 | Clicking the logo redirects the user to the home page | pass |
+| Home Page            | All sections and elements are displayed | pass |
+| Search Bar           | Relevant products matching the search query should be displayed on the search results page. | pass |
+| My Account menu      | Verify if the dropdown menu is working| Clicking My account icon displays *Register* and *Login* links| pass|
+| Register menu item   | Clicking *register* on My account menu redirects to sign up page | pass      |
+| Login menu item      | Clicking *login* on My account menu redirects to login up page | pass      |
+| Browse All dropdown  | Clicking the *browse all* dropdown menu shows by price, by rating, by category, and all products menu items |
+| Sorting by price     | Clicking the *by price* link in the *browse all* menu lists all products and sorts them by price. | pass |
+| Sorting by rating     | Clicking the *by rating* link in the *browse all* menu lists all products and sorts them by rating. | pass |
+| Sorting by category   |Clicking the *by category* link in the *browse all* menu lists all products and sorts them by category.| pass |
+| All Products         | Clicking the *All Products*link in the *browse all* menu lists all products.
+
+|                    |                        |        | pass      |
+|                    |                        |        | pass      |
+
+
+
+|                    |                      |       |     |
+
 | Play Ideas Button      | Verify if the play ideas button loads the play ideas list            | Clicking the play ideas button displays the play ideas list | pass      |
 | Play Ideas Page        | Check if the play ideas are listed correctly                         | Play ideas are displayed in a grid layout                  | pass      |
 | Post Detail Page       | Ensure the post detail page shows correct content                    | Post content, comments, and likes are shown                 | pass      |
