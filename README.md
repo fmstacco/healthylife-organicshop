@@ -178,7 +178,6 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 | #21 As a Shopper / User | I want to  be able to receive an email confirmation after checking out so that I can keep the confirmation on what I've purchased for my records.  | &#9745; |
 
 
-
 ### Epic 5 - Admin and Store Management
 
 
@@ -194,14 +193,10 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 
 
 
-
-
-
-
-
-
-
 ### Site Structure
+
+Healthy Life Orgnic Shop is structured to cater to both registered and non-registered users, aiming to provide a great experience for all. For non-registered and logged-out users, the site offers access to key pages and sections such as *home*, *products*, *categories*, *special offers*, *blog* and also the option to *subscribe to a newsletter* on the footer ensuring they can receive the latest content and keep updated of news and special offers. Once users are registered and logged in, a broader range of features becomes available, such as *profile*, *wishlist*, *logout button*.
+
 
 ### Design Choices
 
