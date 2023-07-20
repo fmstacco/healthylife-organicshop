@@ -15,7 +15,7 @@ Table of Content
     * [Site Users Goal](<#site-users-goal>)
     * [Site Owners Goal](<#site-owners-goal>)
     * [Business Model](<#business-model>)
-    * [Marketing Techniques](<#marketing-techniques>)
+    * [Marketing Strategies](<#marketing-strategies>)
     * [Project Management](<#project-management>)
 * [**User Experience (UX)**](<#user-experience-ux>)
     * [Wireframes](<#wireframes>)
@@ -68,21 +68,26 @@ The site user's goal is to find and purchase organic products in an easy and con
 
 The site owner's goal is to provide a positive and user-friendly shopping experience through a robust e-commerce platform with adequate website design, navigation, and checkout process to make it easy and enjoyable for customers to find and purchase organic products.
 
-## Business Model - B2C
+## Business Model
 
 Healthy Life Organic Shop is a business that only operates online through its ecommerce. We sell fresh produce, groceries and a wide range of products directly to the consumer, so we operate throgh *B2C business model*. We work directly with organic farmers and producers ensuring that our customers have access to a wide range of fresh and sustainable products while supporting local Irish farmers. 
 
 [Back to project](<#project>)
 
-## Marketing Techniques
+## Marketing Strategies
+
+We have employed a range of marketing strategies to elevate our business presence.
+To establish our online presence we use social media platforms like Facebook and Instagram. Furthermore, we build up our audience through a subscription newsletter powered by Mailchimp on our website, expanding our reach and nurturing connections. Additionally, we also have implemented SEO techniques to  target and attract the right clients. Our current marketing strategy presents opportunities for enhancement: marketing content strategy, explore other social media platforms, among others.  
 
 ### Mailchimp Newsletter
 
 A newsletter is an important marketing technique to keep in touch with clients. Providing the ethos of the organic shop we want to make it in a mindful way to keep connected to our valued customers. At Healthy Life Organic Shop, we understand the importance of staying connected with our valued customers. We utilize the power of the Mailchimp newsletter to keep the customers informed and engaged. Our newsletter brings the latest updates on new products, exclusive deals, and products on season,  and also keeps the customers informed about our blog posts, providing you with valuable insights and tips for maintaining a healthy lifestyle.
 
+Please, click the link below to see Mailchimp Newsletter:
+
 <details><summary><b>Mailchimp Newsletter</b></summary>
 
-<img src="./static/images/readme/subscription-confirmed.jpg" alt="Facebook Page">
+<img src="./static/images/readme/subscription-confirmed.jpg" alt="Subscription confirmed">
 <img src="./static/images/readme/audience-mailchimp.jpg" alt="Mailchimp Newsletter"></details>
 
 ### Facebook Page
@@ -92,6 +97,8 @@ To establish a strong online presence for Healthy Life Organic Shop, we have cho
 The Instagram page is still in progress. Both will be alocated as an asset of Facebook Meta Business Suite, which will allows the management of several aspects such as manage posts and also advertising.  
 
 The navlinks for the social media pages can be acessed from the Footer.
+
+Please, click the link below to see our Facebook page:
 
 
 <details><summary><b>Healthy Life Organic Shop Facebook Page</b></summary>
