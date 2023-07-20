@@ -358,8 +358,8 @@ All tests made aimed to achieve the best user experience in system navigation, s
 
 Below are some examples of features tested manually.  
 
-| Test Case              |  Expected Result                                             | Pass/Fail |
-|------------------------|---------------------------------------------------------------------|-------------------------------------------------------------|-----------|
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
 | Page 404             | Typing in a incorrect URL on the page loads the 404 error page | pass |
 | Logo                 | Clicking the logo redirects the user to the home page | pass |
 | Home Page            | All sections and elements are displayed | pass |
