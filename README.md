@@ -68,9 +68,9 @@ The site user's goal is to find and purchase organic products in an easy and con
 
 The site owner's goal is to provide a positive and user-friendly shopping experience through a robust e-commerce platform with adequate website design, navigation, and checkout process to make it easy and enjoyable for customers to find and purchase organic products.
 
-## Business Model
+## Business Model - B2C
 
-Healthy Life Organic Shop is a business that only operates online through its ecommerce. We sell fresh produce, groceries and a wide range of products directly to the consumer, B2C business model. We work directly with organic farmers and producers ensuring that our customers have access to a wide range of fresh and sustainable products while supporting local Irish farmers. 
+Healthy Life Organic Shop is a business that only operates online through its ecommerce. We sell fresh produce, groceries and a wide range of products directly to the consumer, so we operate throgh *B2C business model*. We work directly with organic farmers and producers ensuring that our customers have access to a wide range of fresh and sustainable products while supporting local Irish farmers. 
 
 [Back to project](<#project>)
 
@@ -97,6 +97,17 @@ The navlinks for the social media pages can be acessed from the Footer.
 <details><summary><b>Healthy Life Organic Shop Facebook Page</b></summary>
 
 <img src="./static/images/readme/facebook-page.jpg" alt="Facebook Page"></details>
+
+
+### Search Engine Optimization (SEO)
+
+Search Engine Optimization is extremelly relevant for an organic e-commerce platform as it can attract customers who are genuinely interested in purchasing organic products. The use of SEO tools can enhance the visibility of a website, attract target traffic, improve user experience and increase sales and converting visitors into customers. 
+
+    * Meta Description: Organic shop that sells organic food, organic fruits, vegetablfes, meats, cupboard food.
+    * Meta Keywords: organic shop, organic fruit, organic vegetables, organic box, organic veg, fresh fruit, fresh vegetable, 100% organic, organic wholefoods, organic vegetables, Ireland.
+
+
+Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, optimizing the website's crawlability and contributing to a more effective SEO performance.
 
 
 [Back to project](<#project>)
