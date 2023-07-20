@@ -8,7 +8,7 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
 
 ![Organic Shop responsive design](./static/images/readme/multidevice-organic-shop.jpg)
 
-Table of Content
+# Table of Content
 
 * [**Project**](<#project>)
     * [Objective](<#objective>)
