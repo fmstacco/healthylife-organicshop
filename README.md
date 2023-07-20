@@ -380,34 +380,81 @@ Below are some examples of features tested manually.
 
 ### Testing User Stories
 
-#### **Site User**
 
-| Expectation                         | Result                          |
-| :---------------------------------: | :------------------------------:|
-|  As a Site User I can view a list of play ideas so that I can select one to read | **[Play Ideas Page]**  |
-|  As a Site User I can click on a play idea that I can read the full play idea | **[Play Idea Detail Page]**| 
-|  As a Site User I can view the number of likes on each play idea so that I can see which is the most popular or viral |**[Home, Play Ideas and Detail Pages]**|
-| As a Site User I can view comments on an individual play ideas so that I can read the conversation | **[Play Idea Detail Page]**| 
-|   As a Site User I can register an account so that I can add, update, delete play ideas, comment and like them and also have a profile | **[Register/Sign Up Page]**| 
-| As a Site User | I can create, read, update and delete play ideas so that I can manage my blog content | **[Add, Update, Delete Play Idea page]** |
-| As a Site User I can leave comments on a play idea so that I can be involved in the conversation |**[Play Idea Detail Page]** |
-| As a Site User I can like or unlike a play idea so that I can interact with the content | **[Play Idea Detail Page]** |
-| As a Site User I can access the blog on different devices (mobile, tablet, desktop) for a seamless browsing experience | &check; |
-| As a Site User I can create a profile by adding my bio and picture profile so that other users can read about who I am |**[Profile Page]** |
-| As a Site User I can update a profile by updating my bio and picture profile so that upload a better bio and/or picture profile, or even remove it. | **[Profile Page]** |
-| As a Site User I can see the play ideas I have created so that I can update or delete them | **[Profile Page]**  |
-| As a Site User I can subscribe to a newsletter so that I can receive monthly emails with the new play ideas |**[Footer ]**  |
-| As a Site User I can log out from the Its4kids blog so that I can feel safe that nobody can access my information | **[Logout page]** |
-| As a Site User I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | **[Flash messages]** |
 
-#### **Site Admin**
+### Epic 1 - Viewing And Navigation
 
-| Expectation                         | Result                          |
-| :---------------------------------: | :------------------------------:|
-| As a Site Admin I can create, read, update and delete play ideas so that I can manage my blog content | **[Add, Update, Delete Play Idea page]**  |
-| As a Site Admin I can create draft play ideas so that I can finish writing the content later| **[Add, Update, Delete Play Idea page]**  |
-| As a Site Admin I can create new categories through django admin dashboard so that the play ideas are organized by categories | **[Django Dashboard]**  |
-| As a Site Admin I can approve or disapprove comments on play ideas so that I can provide a safe environment for the users | **[Django Dashboard]**|
+* #1 As a Shopper / User I want to be able to view a list of organic products so that I can select some to purchase.
+
+* #2 As a Shopper / User I want to be able to view individual product details so that I can see the price, description, product rating and product image.
+
+* #3 As a Shopper / User I want to be able to quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I would like to purchase.
+
+* #4 As a Shopper / User I want to be able to easily view the total of my purchases at any time so that I can avoid spending too much.
+
+* #22 As a Shopper / User I want to be able to view blog posts so that I can get the latest information on organic products.
+
+* #23 As a Shopper / User I want to receive visual feedback while interacting with the content so that I can validate how I have interacted with the page.
+
+
+### Epic 2 - Registration and User Accounts
+|  | | |
+|:-------:|:--------|:--------|
+| #5 As a Shopper / User | I want to be able to easily register for an account so that I can have a personal account and be able to view my profile| &#9745; |
+| #6 As a Shopper / User | I want to be able to esily login and logout so that I can effortlessly access my personal account information.| &#9745; |
+| #7 As a Shopper / User | I want to be able to  easily recover my password in case I forget it so that I can recover access to my account| &#9746; |
+| #24 As a Shopper / User | I want to log out from the site so that I can ensure the security of my personal information and maintain my privacy. | &#9745; |
+| #8 As a Shopper / User | I want to receive an email confirmation after registering so that I can verify that my account registration was successful. | &#9745; |
+| #9 As a Shopper / User | I want to have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information | &#9745; |
+
+
+### Epic 3 - Sorting and Searching
+
+* #10 As a Shopper / User I want to  be able to sort the list of available organic products so that I can easily identify the best rated, best priced and categorically sorted products.
+
+* #11 As a Shopper / User I want to  be able to sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort the products in that category name.
+
+* #12 As a Shopper / User I want to  be able to sort  multiple categories of products simultaneously so that I can find the best-priced or best-rated product accross broad categories, such as "all groceries" or "all fresh produce".
+
+* #13 As a Shopper / User I want to  be able to search for a product by name or description so that I can find a specific product I'd like to purchase.
+
+
+### Epic 4 - Purchasing and Checkout
+
+* #16 As a Shopper / User I want to  be able to view items in my bag to be purchased so that I can identify the total cost of my purchase and all organic items I will receive.
+
+* #17 As a Shopper / User I want to  be able to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checking out.
+
+* #18 As a Shopper / User I want to  be able to easily enter my payment information so that I can checkout quickly and with no hassles.
+
+* #19 As a Shopper / User I want to  be able to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase.
+
+* #20 As a Shopper / User I want to  be able to view an order confirmation after checking out so that I can verify that I haven't made any mistakes.
+
+* #21 As a Shopper / User I want to  be able to receive an email confirmation after checking out so that I can keep the confirmation on what I've purchased for my records.
+
+
+### Epic 5 - Admin and Store Management
+
+
+
+### Epic 6 - Wishlist
+
+* #25 As a Shopper / User I want to create a wish list where I can add products I'm interested in, so that I can keep track of items I wish to purchase in the future.
+
+* #26 As a Shopper / User I want the ability to remove a product from my wish list, so that I can manage my desired products more effectively.
+
+* #29 As a Shopper / User I want to be able to easily navigate my Wishlist page so that I can view my favorite organic products.
+
+
+
+
+
+
+
+
+
+
 
 
 [Back to top](<#contents>)
