@@ -138,14 +138,24 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 
 ### Epic 1 - Viewing And Navigation
 
-|  | | |
+
 |:-------:|:--------|:--------|
 | #1 As a Shopper / User   | I want to be able to view a list of organic products so that I can select some to purchase | &#9745; |
 | #2 As a Shopper / User | I want to be able to view individual product details so that I can see the price, description, product rating and product image. | &#9745; |
-| #3 As a Shopper / User| I want to be able to quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I would like to purchase | &#9746; |
+| #3 As a Shopper / User| I want to be able to quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I would like to purchase | &#9745; |
 | #4 As a Shopper / User | I want to be able to easily view the total of my purchases at any time so that I can avoid spending too much | &#9745; |
 | #22 As a Shopper / User |  I want to be able to view blog posts so that I can get the latest information on organic products | &#9745; |
 | #23 As a Shopper / User | I want to receive visual feedback while interacting with the content so that I can validate how I have interacted with the page | &#9745; |
+
+
+### Epic 2 - Registration and User Accounts
+
+|:-------:|:--------|:--------|
+| #5 As a Shopper / User | I want to be able to easily register for an account so that I can have a personal account and be able to view my profile| &#9745; |
+| #6 As a Shopper / User | I want to be able to esily login and logout so that I can effortlessly access my personal account information.| &#9745; |
+| #7 As a Shopper / User | I want to be able to  easily recover my password in case I forget it so that I can recover access to my account| &#9746; |
+| #24 As a Site User | I want to log out from the site so that I can ensure the security of my personal information and maintain my privacy. | &#9745; |
+
 
 
 
