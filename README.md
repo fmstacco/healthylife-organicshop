@@ -154,7 +154,7 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 | #6 As a Shopper / User | I want to be able to esily login and logout so that I can effortlessly access my personal account information.| &#9745; |
 | #7 As a Shopper / User | I want to be able to  easily recover my password in case I forget it so that I can recover access to my account| &#9746; |
 | #24 As a Shopper / User | I want to log out from the site so that I can ensure the security of my personal information and maintain my privacy. | &#9745; |
-| #8 As a Shopper / User | I want to receive an email confirmation after registering so that I can verify that my account registration was successful. | &#9746; |
+| #8 As a Shopper / User | I want to receive an email confirmation after registering so that I can verify that my account registration was successful. | &#9745; |
 | #9 As a Shopper / User | I want to have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information | &#9745; |
 
 
@@ -180,6 +180,19 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 
 
 ### Epic 5 - Admin and Store Management
+
+
+
+### Epic 6 - Wishlist
+|  | | |
+|:-------:|:--------|:--------|
+| #25 As a Shopper / User | I want to create a wish list where I can add products I'm interested in, so that I can keep track of items I wish to purchase in the future.  | &#9745; |
+| #26 As a Shopper / User |  I want the ability to remove a product from my wish list, so that I can manage my desired products more effectively.  | &#9745; |
+| #29 As a Shopper / User |  I want to be able to easily navigate my Wishlist page so that I can view my favorite organic products.  | &#9745; |
+| #27 As a Shopper / User |  I want to share my wish list with friends and family, so that they can easily find gift ideas for special occasions like birthdays or holidays.  | &#9746; |
+| #28 As a Shopper / User |  I want to be able to add items directly from the product pages to my wish list, so that I can quickly add products I like without going back to the list.  | &#9746; |
+
+
 
 
 
