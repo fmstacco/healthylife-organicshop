@@ -457,6 +457,11 @@ Below are some examples of features tested manually.
 
     * At the top of the site there is a navigation search bar that search products by name or description.
 
+* As a Shopper/User I want to  be able to **easily see what I`ve searched for and the number of results** so that I can quickly decide whether the product I want is available.(#14)
+
+    * This feature has not been implemented.
+
+
 
 ### Epic 4 - Purchasing and Checkout
 
@@ -494,23 +499,23 @@ Below are some examples of features tested manually.
 
 * As a Shopper/User I want to **create a wish list** where I can add products I'm interested in, so that I can keep track of items I wish to purchase in the future. (#25)
 
-    * 
+    * The shopper/user can create a wish list by clicking on the button "Add to Wishlist" on the product detail page.  
 
 * As a Shopper/User I want the ability to **remove a product from my wish list**, so that I can manage my desired products more effectively. (#26)
 
-    * 
+    * The shopper/user can remove a product from their wish list page by clicking on the button "Remove from my Wishlist" on the Wishlist page.
 
 * As a Shopper/User I want to be able to **easily navigate my Wishlist page** so that I can view my favorite organic products. (#29)
 
-    * 
+    * The shopper/user can easily navigate their Wishlist page by clicking on *Wishlist link* My Account Menu.
 
+ * As a Shopper/User I want to **share my wish list with friends and family**, so that they can easily find gift ideas for special occasions like birthdays or holidays.(#27)
 
+    * This feature has not been implemented.
 
+* As a Shopper/User I want to be able to **add items directly from the product pages** to my wish list, so that I can quickly add products I like without going back to the list. (#28)
 
-
-
-
-
+    * This feature has not been implemented.
 
 
 [Back to top](<#contents>)
