@@ -360,22 +360,23 @@ Below are some examples of features tested manually.
 
 | Test Case              |  Expected Result                                            | Pass/Fail |
 |------------------------|-------------------------------------------------------------|-----------|
-| Page 404             | Typing in a incorrect URL on the page loads the 404 error page | pass |
-| Logo                 | Clicking the logo redirects the user to the home page | pass |
-| Home Page            | All sections and elements are displayed | pass |
-| Search Bar           | Relevant products matching the search query should be displayed on the search results page. | pass |
-| My Account menu      | Verify if the dropdown menu is working| Clicking My account icon displays *Register* and *Login* links| pass|
-| Register menu item   | Clicking *register* on My account menu redirects to sign up page | pass      |
-| Login menu item      | Clicking *login* on My account menu redirects to login up page | pass      |
-| Browse All dropdown  | Clicking the *browse all* dropdown menu shows by price, by rating, by category, and all products menu items |
-| Sorting by price     | Clicking the *by price* link in the *browse all* menu lists all products and sorts them by price. | pass |
-| Sorting by rating     | Clicking the *by rating* link in the *browse all* menu lists all products and sorts them by rating. | pass |
-| Sorting by category   |Clicking the *by category* link in the *browse all* menu lists all products and sorts them by category.| pass |
-| All Products         | Clicking the *All Products*link in the *browse all* menu lists all products.
-
-|                    |                        |        | pass      |
-|                    |                        |        | pass      |
-
+| Page 404             | Typing in a incorrect URL on the page loads the 404 error page|    pass   |
+| Logo                 | Clicking the logo redirects the user to the home page |    pass   |
+| Home Page            | All sections and elements are displayed |    pass   |
+| Search Bar           | Relevant products matching the search query should be displayed on the search results page. |    pass   |
+| My Account menu      | Clicking My account icon displays *Register* and *Login* links|    pass   |
+| Register menu item   | Clicking *register* on My account menu redirects to sign up page |    pass   |
+| Login menu item      | Clicking *login* on My account menu redirects to login up page |    pass   |
+| Browse All dropdown  | Clicking the *browse all* dropdown menu shows by price, by rating, by category, and all products menu items |    pass   |
+| Sorting by price     | Clicking the *by price* link in the *browse all* menu lists all products and sorts them by price. |    pass   |
+| Sorting by rating     | Clicking the *by rating* link in the *browse all* menu lists all products and sorts them by rating. |    pass   |
+| Sorting by category   |Clicking the *by category* link in the *browse all* menu lists all products and sorts them by category.|    pass   |
+| All Products         | Clicking the *All Products*link in the *browse all* menu lists all products.|    pass   |
+| Organic Fresh Produce dropdown | Clicking the *organic fresh produce* dropdown menu shows fruits, vegetables, bulky buy and all fresh produce menu items. |    pass   | 
+| Fruits menu item | Clicking the *fruits* link in the *organic fresh produce* dropdown menu lists all fruits of this category. |    pass   |
+| Vegetables menu item | Clicking the *vegetables* link in the *organic fresh produce* dropdown menu lists all vegetables of this category. |    pass   |
+| Bulky buy menu item | Clicking the *bulky but* link in the *organic fresh produce* dropdown menu lists all bulky buy products of this category. |    pass   |
+| All fresh produce | Clicking the *all fresh produce* link in the *organic fresh produce* dropdown menu lists all all fresh produce products |    pass   |
 
 
 |                    |                      |       |     |
