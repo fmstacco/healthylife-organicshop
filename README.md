@@ -17,6 +17,7 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
     * [Business Model](<#business-model>)
     * [Marketing Strategies](<#marketing-strategies>)
     * [Project Management](<#project-management>)
+    * [Database Structure](<#database-structure>)
 * [**User Experience (UX)**](<#user-experience-ux>)
     * [Wireframes](<#wireframes>)
     * [User Stories](<#user-stories>)
@@ -129,6 +130,22 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 
 [Back to top](<#table-of-content>)
 
+
+## Database Structure
+
+The [Lucidchart](https://www.lucidchart.com/) tool was used to provide a clear representation of the database structure and relationships created, making it easier to understand and visualize the overall architecture of the ecommerce platform.
+
+Models used:
+
+* **Blog App** - The blog app contains three models: Post, Comment, and Category. 
+* **Checkout App** - The "checkout" app contains two models: Order and OrderLineItem.
+* **Product App** -  The "product" app contains two models: Category and Product.
+* **Profiles App** - The "profiles" app contains three models: UserProfile and Wishlist.
+
+<details><summary><b>Database Structure</b></summary>
+
+![Database Structure](./static/images/readme/organic-shop-diagram.jpeg)
+</details><br/>
 
 ## User Experience (UX)
 
