@@ -259,7 +259,7 @@ The background image of a veggie box with hands holding cherry tomatoes reinforc
 
 ### Existing Features
 
-### Home Page 
+#### Home Page 
 
 Please click on the links below to see the **Home Page** for large screen and mobile:
 
@@ -273,9 +273,9 @@ Please click on the links below to see the **Home Page** for large screen and mo
 ![Home Page](./static/images/readme/home-page-organicshop_mobile.jpg)
 </details><br/>
 
-[Back to Home Page](<#home-page>)
+[Back to Features](<#features>)
 
-### Navigation Bar
+#### Navigation Bar
 
 Healthy Life Organic shop provides a user-friendly experience with a consistent and responsive navigation design across all pages. The header displays the logo and a navigation menu, allowing easy access to different sections of the site. Clicking on the logo redirects users back to the Home page. 
 
@@ -310,7 +310,7 @@ Please click on the links below to see the **Navigation bar** for large screen a
 [Back to Navigation bar](<#navigation-bar>)
 
 
-### Products
+#### Products
 
 The Products page shows the organic products according to the category selected on the navigation menu.
 
@@ -330,18 +330,18 @@ Please click on the links below to see the **Products page** for large screen an
 </details><br/>
 
 
-
-[Back to Products](<#products>)
-
+[Back to Features](<#features>)
 
 
-
+#### Product Details
 
 
 
 
 
-    * [Product Details](<#product-details>)
+[Back to Features](<#features>)
+
+
     * [Blog](<#blog>)
     * [My Account](<#my-account>)
     * [Django-allauth Features](<#django-allauth-features>)
