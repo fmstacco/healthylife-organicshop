@@ -585,6 +585,42 @@ The performance score of 73% can be significantly enhanced by simply resizing al
 ## Deployment
 
 
+The deployment process was completed by using [GitHub](https://github.com/), [ElephantSQL](elephantsql.com), [Heroku](heroku.com), following the steps below: 
+
+1. A new repository called healthylife-organicshop was created on [GitHub](https://github.com/) using the [Code Institute full template](https://github.com/Code-Institute-Org/gitpod-full-template).
+2. A new workspace was created in Gitpod by clicking to the green ‘Gitpod’ button.
+3. **Django and supporting librari were installed as below:
+
+    *In the terminal*:
+    **Install django and gunicorn:** pip3 install 'django<4' gunicorn
+    **Install supporting libraries:** pip3 install dj_database_url==0.5.0 psycopg2
+    **Create requirements file:** pip3 freeze --local > requirements.txt
+    **Create project:** django-admin startproject organicshop .
+    **Create app:** python3 manage.py startapp home
+
+    *In settings.py*
+    **Add app to installed apps:** 
+    INSTALLED_APPS = [
+    …
+    'home',
+    ]
+
+    *In the terminal*:
+    **Migrate changes:** python3 manage.py migrate
+    **Run Server to Test:** python3 manage.py runserver
+    **Get the hostname:** '8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io'
+
+    *In settings.py*
+    **Add the hostname to Allowed Hosts:** ALLOWED_HOSTS = ['8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io']
+
+
+
+
+
+
+4. An external database was created on [ElephantSQL](elephantsql.com) 
+5. An app was created deployed to [Heroku](heroku.com).
+
 
 
 ### **Forking this repository on GitHub**
