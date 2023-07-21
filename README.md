@@ -181,10 +181,11 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 ### Epic 5 - Admin and Store ManagementS
 |  | | |
 |:-------:|:--------|:--------|
-| #25 As a Shopper / User | I want to create a wish list where I can add products I'm interested in, so that I can keep track of items I wish to purchase in the future.  | &#9745; |
-
-
-
+| #30 As a Site Admin | I want to be able to confidently login and logout of the admin section so that I can feel safe that nobody can access my information.  | &#9745; |
+| #31 As a Site Admin | I want to be able to add new product so that I can keep the website products up to date.| &#9745; |
+| #32 As a Site Admin | I want to be able to update / edit any product that needs to be updated such as description, price etc.| &#9745; |
+| #33 As a Site Admin | I want to be able to delete any product that might be discontinued or not sold anymore on the organic shop| &#9745; |
+| #34 As a Site Admin | I want to be able to add, update or delete any blog post (via Django admin dashboard)| &#9745; |
 
 
 ### Epic 6 - Wishlist
@@ -515,6 +516,26 @@ Below are some examples of features tested manually.
 
 ### Epic 5 - Admin and Store Management
 
+
+* As a Site Admin I want to be able to confidently login and logout of the admin section so that I can feel safe that nobody can access my information.(#30)
+
+    * Site admin can securely login and logout through My Account menu. 
+
+* As a Site Admin I want to be able to **add new product** so that I can keep the website products up to date. (#31)
+
+    *  Site admin can add a new product through Product Management available on admin My Account menu. 
+
+* As a Site Admin I want to be able to **update/edit any product** that needs to be updated such as description, price etc.(#32)
+
+    *  Site admin can update/edit any product through Product Management available on admin My Account menu. 
+
+* As a Site Admin I want to be able to **delete any product** that might be discontinued or not sold anymore on the organic shop.(#33)
+
+    * Site admin can delete any product through Product Management available on admin My Account menu. 
+
+* As a Site Admin I want to be able to **add, update or delete any blog post** via Django admin dashboard.(#34)
+
+    * Site admin can add, update or delete any blog post** via Django admin dashboard. 
 
 
 ### Epic 6 - Wishlist
