@@ -378,26 +378,25 @@ Below are some examples of features tested manually.
 | Vegetables menu item | Clicking the *vegetables* link in the *organic fresh produce* dropdown menu lists all vegetables of this category. |    pass   |
 | Bulky buy menu item | Clicking the *bulky but* link in the *organic fresh produce* dropdown menu lists all bulky buy products of this category. |    pass   |
 | All fresh produce | Clicking the *all fresh produce* link in the *organic fresh produce* dropdown menu lists all all fresh produce products |    pass   |
+| Organic Groceries dropdown | Clicking the *organic groceries* dropdown menu shows cupboard, pasta and rice, jams and spreads, meat & fish and all groceries menu items. |    pass   | 
+| Cupboard | Clicking the *cupboard* link in the *organic groceries* dropdown menu lists all cupboard items in this category. |    pass   |
+| Pasta and Rice | Clicking the *pasta and rice* link in the *organic groceries* dropdown menu lists all pasta and rice items in this category. |    pass   |
+| Jams and spreads | Clicking the *jams and spreads* link in the *organic groceries* dropdown menu lists all jams and spreadsitems in this category. |    pass   |
+| Meat & fish | Clicking the *meat & fish* link in the *organic groceries* dropdown menu lists all meat & fish items in this category. |    pass   |
+| All groceries | Clicking the *all groceries* link in the *organic groceries* dropdown menu lists all organic groceries products registered. |    pass   |
+| Special Offers dropdown | Clicking the *special offers* dropdown menu shows veg box, fruit box, rescue corner and all specials menu items. |    pass   | 
+| Veg box | Clicking the *veg box* link in the *special offers* dropdown menu lists all veg box items in this category. |    pass   |
+| Fruit box | Clicking the *fruit box* link in the *special offers* dropdown menu lists all fruit box items in this category. |    pass   |
+| Rescue corner | Clicking the *rescue corner* link in the *special offers* dropdown menu lists all rescue corner items in this category. |    pass   |
+| All specials | Clicking the *all specials* link in the *special offers* dropdown menu lists all special offers  products registered. |    pass   |
+| Blog dropdown | Clicking the *blog* dropdown menu shows its categories: health advice, weight loss, recipes and all blog posts on the website. |    pass   | 
+| Health advice | Clicking the *health advice* link in the *blog* dropdown menu lists all health advice blog posts on the website. |    pass   |
+| Weight loss | Clicking the *weight loss* link in the *blog* dropdown menu lists all weight loss blog posts on the website. |    pass   |
+| Recipes | Clicking the *recipes* link in the *blog* dropdown menu lists all recipes blog posts on the website. |    pass   |
+| All blog posts  | Clicking the *all blog posts* link in the *blog* dropdown menu lists all blog posts on the website. |    pass   |
 
 
-|                    |                      |       |     |
 
-| Play Ideas Button      | Verify if the play ideas button loads the play ideas list            | Clicking the play ideas button displays the play ideas list | pass      |
-| Play Ideas Page        | Check if the play ideas are listed correctly                         | Play ideas are displayed in a grid layout                  | pass      |
-| Post Detail Page       | Ensure the post detail page shows correct content                    | Post content, comments, and likes are shown                 | pass      |
-| User Registration      | Test the user registration process                                   | User can successfully register                              | pass      |
-| User Login             | Test the user login process                                          | User can successfully log in                                 | pass      |
-| Add Post               | Test the functionality to add a new play idea for logged users       | New play idea is added to the blog                          | pass      |
-| Update Post            | Test updating an existing play idea                                  | Play idea is updated successfully                           | pass      |
-| Delete Post            | Test deleting a play idea                                            | Play idea is deleted from the blog                          | pass      |
-| Nav Links Footer       | Check if the navigation links in the footer are working              | Clicking on a footer nav link redirects to the page         | pass      |
-| Social Links           | Test if social links in the footer open in a new window              | Clicking on a social link opens a new window                | pass      |
-| Subscribe Newsletter   | Test the subscribe newsletter feature                                | User can submit their email and is redirected to a thank you page | pass |
-| Profile Page           | Check if the profile page is loading correctly                       | User can view their profile page                            | pass      |
-| Update Profile         | Check if users can update their profile with a bio and picture       | Users can upload a profile picture and add a bio            | pass      |
-| Clear Profile          | Check if users can clear their bio and picture from their profile    | Users can remove their profile picture and bio              | pass      |
-| User's Posts - Profile | Check if users can see and access their own added play ideas         | Users can view and access their own play ideas              | pass      |
-| Feedback Messages      | Check if feedback messages are displayed in relevant submissions     | Users receive appropriate feedback messages                 | pass      |
 
 
 
@@ -740,22 +739,6 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
 
 
 
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -798,12 +781,6 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 
 [Back to top](<#contents>)
-
-
-
-
-
-
 
 
 
