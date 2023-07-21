@@ -122,6 +122,7 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 
 ## Project Management
 
+
 ### GitHub Project
 
 * I have created a kanban project dashboard to manage the project progress. 
@@ -142,6 +143,9 @@ Models used:
 * **Product App** -  The "product" app contains two models: Category and Product.
 * **Profiles App** - The "profiles" app contains three models: UserProfile and Wishlist.
 
+Please, click the link below to see the database structure:
+
+
 <details><summary><b>Database Structure</b></summary>
 
 ![Database Structure](./static/images/readme/organic-shop-diagram.jpeg)
@@ -150,6 +154,19 @@ Models used:
 ## User Experience (UX)
 
 ### Wireframes
+
+The wireframes for Healthy Life Organic Shop website were developed on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the blog. 
+
+Please click on the links below to see the **wireframes** for large screen and mobile:
+
+
+<details><summary><b>Home</b></summary>
+
+<img src="./static/images/readme/wireframe-organicshop-homepage.jpg" alt="Home Page Wireframe"></details>
+
+
+
+
 
 ### User Stories
 
