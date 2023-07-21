@@ -585,7 +585,7 @@ The performance score of 73% can be significantly enhanced by simply resizing al
 ## Deployment
 
 
-The deployment process was completed by using [GitHub](https://github.com/), [Heroku](heroku.com), [ElephantSQL](elephantsql.com), following the steps below: 
+The deployment process was completed by using [GitHub](https://github.com/), [Heroku](heroku.com), [ElephantSQL](elephantsql.com), following the steps below and also the steps on the [Django Blog Cheat Sheet](https://docs.google.com/document/d/1P5CWvS5cYalkQOLeQiijpSViDPogtKM7ZGyqK-yehhQ/edit#heading=h.5s9novsydyp1): 
 
 1. A new repository called healthylife-organicshop was created on [GitHub](https://github.com/) using the [Code Institute full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 2. A new workspace was created in Gitpod by clicking to the green ‘Gitpod’ button.
@@ -608,11 +608,11 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
     * *In the terminal:*
         * **Migrate changes:** python3 manage.py migrate
         * **Run Server to Test:** python3 manage.py runserver
-        * **Get the hostname:** '8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io'
+        * **Get the hostname:** '8000'
 
     * *In settings.py:*
         
-        * **Add the hostname to Allowed Hosts:** ALLOWED_HOSTS = ['8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io']
+        * **Add the hostname to Allowed Hosts:** ALLOWED_HOSTS = ['8000']
 
 
 4. An external database was created on [ElephantSQL](elephantsql.com) 
@@ -630,58 +630,103 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
             * Check that your details are correct. 
             * Then click “Create instance”
         * Return to the ElephantSQL dashboard and click on the database instance name for this project
-        * Copy your ElephantSQL database URL using the Copy
+        * Copy your ElephantSQL database URL using the Copy icon. It will start with postgres://
 
 5. An app was created and deployed to [Heroku](heroku.com).
 
-    * **1. Create a new app**
+    * **1. Create a new Heroku app** 
     * **2. Give the app a name and select the closest region**
-    * **3. Add the config var DATABASE_URL from ElephantSQL**
-       
-    * *In the terminal:*
-
-        * **Install dj_database_url and psycopg2:**  pip3 install dj_database_url==0.5.0 psycopg2
-        * **Update requirements.txt:**  pip freeze > requirements.txt
-
-    * *In settings.py:*
-
-            import os
-            import dj_database_url
-
-        * *Scroll to DATABASES section:* 
-
-            # DATABASES = {
-            #     'default': {
-            #         'ENGINE': 'django.db.backends.sqlite3',
-            #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-            #     }
-            # }
-                
-            DATABASES = {
-                'default': dj_database_url.parse('your-database-url-here')
-            }
-
-    *DO NOT commit this file with your database string in the code, this is temporary so that we can connect to the new database and make migrations. We will remove it in a moment.*
+    * **3. Click Reveal Config Vars**
+    * **4. Add a Config Var called DATABASE_URL:** Note: The value should be the ElephantSQL database url you copied in the previous step.
 
 
-    * *In the terminal:*
+    * In the IDE file explorer or terminal:
+        
+        * **Create new env.py file on top level directory:** E.g. env.py
+    
+    * In env.py:
 
-        * **Run show migrations:**  python3 manage.py showmigrations 
-        * **See a list of all migrations**
-        * **Migrate:** python3 manage.py migrate
-        * **Load fixtures:** python3 manage.py loaddata categories
-        * **Load products:**  python3 manage.py loaddata products
-        * **Create superuser:** python3 manage.py createsuperuser
+        * **Import os library:** import os
+        * **Set environment variables:** os.environ["DATABASE_URL"] = "Paste in ElephantSQL database URL"
+        * **Add in secret key:** os.environ["SECRET_KEY"] = "Make up your own randomSecretKey"
+
+    * In Heroku: 
+
+        * **Add Secret Key to Config Vars:** SECRET_KEY, “randomSecretKey”
+
+    
+    * **5. Prepare our environment and settings.py file:**
+
+        * *In settings.py:*
+
+            * **Reference env.py:** (Note: font in bold is new)
+
+                from pathlib import Path
+                **import os**
+                **import dj_database_url**
+
+                **if os.path.isfile("env.py"):**
+                **import env**
+
+            * **Remove the insecure secret key and replace - links to the SECRET_KEY variable on Heroku** (Note: font in bold is new)
+
+                SECRET_KEY = **os.environ.get('SECRET_KEY')**
+
+            * **Comment out the old DataBases Section**
 
 
-    *To prevent exposing our database when we push to GitHub, we will delete it again from our settings.py - we’ll set it up again using an environment variable in the next video - and reconnect to our local sqlite database. For now, your DATABASE setting in the settings.py file should look like this:*
+                # DATABASES = {
+                #     'default': {
+                #         'ENGINE': 'django.db.backends.sqlite3',
+                #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                #     }
+                # }
+            
+            * **Add new DATABASES Section:** links to the DATATBASE_URL variable on Heroku
 
-            DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.sqlite3',
-                'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-            }
-            }
+                DATABASES = {
+                'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+                }
+
+        * *In the terminal:*
+
+            * **Save all files and Make Migrations:** python3 manage.py migrate
+    
+    
+    * **6. Get our static and media files stored**
+
+        * *In the terminal:*
+
+            * **Create 3 new folders on top level directory:** media, static, templates
+            * **Create a Procfile on the top level directory:** Procfile
+            
+            * *In Procfile:* 
+
+                * **Add code:** web: gunicorn PROJ_NAME.wsgi
+
+
+        * *In the terminal:*
+
+            * **Add, Commit and Push:**
+
+                git add .
+                git commit -m “Deployment Commit”
+                git push
+
+
+
+ 
+
+
+
+        
+
+
+
+
+
+
+
 
 
 
