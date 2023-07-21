@@ -151,6 +151,9 @@ Please, click the link below to see the database structure:
 ![Database Structure](./static/images/readme/organic-shop-diagram.jpeg)
 </details><br/>
 
+[Back to top](<#table-of-content>)
+
+
 ## User Experience (UX)
 
 ### Wireframes
@@ -169,6 +172,7 @@ Please click on the links below to see the **wireframes** for large screen and m
 <img src="./static/images/readme/organic shop-products-page.jpg" alt="Home Page Wireframe"></details>
 
 
+[Back to top](<#table-of-content>)
 
 
 ### User Stories
@@ -234,6 +238,7 @@ Please click on the links below to see the **wireframes** for large screen and m
 | #27 As a Shopper / User |  I want to share my wish list with friends and family, so that they can easily find gift ideas for special occasions like birthdays or holidays.  | &#9746; |
 | #28 As a Shopper / User |  I want to be able to add items directly from the product pages to my wish list, so that I can quickly add products I like without going back to the list.  | &#9746; |
 
+[Back to top](<#table-of-content>)
 
 
 ### Site Structure
@@ -246,6 +251,56 @@ Healthy Life Orgnic Shop is structured to cater to both registered and non-regis
 Our organic shop's design utilizes green and white colors to convey sustainability, natural eating, and a deep connection to nature. Green, symbolizing fresh produce and eco-consciousness, reflects our commitment to offering organic products that are both wholesome and environmentally friendly. 
 
 The background image of a veggie box with hands holding cherry tomatoes reinforces our commitment to fresh, locally sourced produce and the farm-to-table concept. Our color palette and imagery come together creating an inviting and meaningful online space for a wholesome and sustainable living.
+
+[Back to top](<#table-of-content>)
+
+
+## Features
+
+### Existing Features
+
+### Home Page 
+
+Please click on the links below to see the **Home Page** for large screen and mobile:
+
+<details><summary><b>Home Page Large Screen</b></summary>
+
+![Home Page](./static/images/readme/home-page-organicshop.jpg)
+</details><br/>
+
+<details><summary><b>Home Page Mobile</b></summary>
+
+![Home Page](./static/images/readme/home-page-organicshop_mobile.jpg)
+</details><br/>
+
+[Back to Home Page](<#home-page>)
+
+
+* [**Features**](<#features>)
+    * [Navbar](<#navbar>)
+    * [Home Page](<#home-page>)
+    * [Products](<#products>)
+    * [Product Details](<#product-details>)
+    * [Blog](<#blog>)
+    * [My Account](<#my-account>)
+    * [Django-allauth Features](<#django-allauth-features>)
+    * [Add Product](<#add-product>)
+    * [Login](<#login>)
+    * [Shopping Bag](<#shopping-bag>)
+    * [Checkout](<#checkout>)
+    * [Order Confirmation](<#order-confirmation>)
+    * [Footer](<#footer>)
+    * [Toasts](<#toasts>)
+* [**Future Features**](<#future-features>)
+
+
+
+
+
+
+
+
+
 
 
 ## Technologies Used
