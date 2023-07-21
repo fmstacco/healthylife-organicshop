@@ -24,8 +24,8 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
 * [**Features**](<#features>)
-    * [Navbar](<#navbar>)
     * [Home Page](<#home-page>)
+    * [Navigation bar](<#navbar>)
     * [Products](<#products>)
     * [Product Details](<#product-details>)
     * [Blog](<#blog>)
@@ -275,10 +275,41 @@ Please click on the links below to see the **Home Page** for large screen and mo
 
 [Back to Home Page](<#home-page>)
 
+### Navigation Bar
 
-* [**Features**](<#features>)
-    * [Navbar](<#navbar>)
-    * [Home Page](<#home-page>)
+Healthy Life Organic shop provides a user-friendly experience with a consistent and responsive navigation design across all pages. The header displays the logo and a navigation menu, allowing easy access to different sections of the site. Clicking on the logo redirects users back to the Home page. 
+
+Please click on the links below to see the **Navigation bar** for large screen and mobile:
+
+
+<details><summary><b>Users Logged out</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen- User Logged out](./static/images/readme/navbar_organicshop_logged_out.jpg)
+<br/>
+
+<summary><b>Mobile</b></summary>
+
+![Mobile - User Logged out](./static/images/readme/navbar_organicshop_logged_out_mobile.jpg)
+</details><br/>
+
+
+<details><summary><b>Users Logged in</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen - Logged in users](./static/images/readme/navbar_organicshop_logged_in.jpg)
+
+
+<summary><b>Mobile</b></summary><br>
+
+![Mobile - Logged in users](./static/images/readme/navbar_organicshop_logged_in_mobile.jpg)
+</details><br/>
+
+[Back to Navigation bar](<#navigation-bar>)
+
+
     * [Products](<#products>)
     * [Product Details](<#product-details>)
     * [Blog](<#blog>)
