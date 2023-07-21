@@ -589,7 +589,7 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
 
 1. A new repository called healthylife-organicshop was created on [GitHub](https://github.com/) using the [Code Institute full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 2. A new workspace was created in Gitpod by clicking to the green ‘Gitpod’ button.
-3. **Django and supporting libraries were installed as below:
+3. **Django and supporting libraries** were installed as below:
 
    * *In the terminal*:
         * **Install django and gunicorn:** pip3 install 'django<4' gunicorn
@@ -610,10 +610,29 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
         * **Run Server to Test:** python3 manage.py runserver
         * **Get the hostname:** '8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io'
 
-    *In settings.py:*
-    **Add the hostname to Allowed Hosts:** ALLOWED_HOSTS = ['8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io']
+    * *In settings.py:*
+        
+        * **Add the hostname to Allowed Hosts:** ALLOWED_HOSTS = ['8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io']
 
-4. An app was created and deployed to [Heroku](heroku.com).
+
+4. An external database was created on [ElephantSQL](elephantsql.com) 
+
+    * On elephantsql.com:
+
+        * Log in to your ElephantSQL account
+        * Click “Create New Instance”
+        * Set up your plan
+            * Give your plan a Name (this is commonly the name of the project)
+            * Select the Tiny Turtle (Free) plan
+            * You can leave the Tags field blank
+        * Click “Select Region”: Select a data center near you
+        * Click “Review”
+            * Check that your details are correct. 
+            * Then click “Create instance”
+        * Return to the ElephantSQL dashboard and click on the database instance name for this project
+        * Copy your ElephantSQL database URL using the Copy
+
+5. An app was created and deployed to [Heroku](heroku.com).
 
     * **1. Create a new app**
     * **2. Give the app a name and select the closest region**
@@ -629,7 +648,7 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
             import os
             import dj_database_url
 
-        Scroll to DATABASES section:
+        * *Scroll to DATABASES section:* 
 
             # DATABASES = {
             #     'default': {
@@ -664,14 +683,13 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
             }
             }
 
-    
-
-
-4. An external database was created on [ElephantSQL](elephantsql.com) 
 
 
 
-5. 
+
+
+
+
 
 
 
