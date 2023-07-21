@@ -125,7 +125,7 @@ Healthy Life Organic Shop also incorporates sitemap.xml and robots.txt files, op
 
 * I have created a kanban project dashboard to manage the project progress. 
 
-![Github Dashboard](media/user-stories-kanban.png)
+![Github Dashboard](./static/images/readme/user-stories-kanban-organic-shop.jpg)
 
 [Back to top](<#table-of-content>)
 
@@ -696,12 +696,12 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
             * **Comment out the old DataBases Section**
 
 
-                # DATABASES = {
-                #     'default': {
-                #         'ENGINE': 'django.db.backends.sqlite3',
-                #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-                #     }
-                # }
+                    # DATABASES = {
+                    #     'default': {
+                    #         'ENGINE': 'django.db.backends.sqlite3',
+                    #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                    #     }
+                    # }
             
             * **Add new DATABASES Section:** links to the DATATBASE_URL variable on Heroku
 
