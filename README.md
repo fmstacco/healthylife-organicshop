@@ -591,40 +591,40 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
 2. A new workspace was created in Gitpod by clicking to the green ‘Gitpod’ button.
 3. **Django and supporting libraries were installed as below:
 
-    *In the terminal*:
-    **Install django and gunicorn:** pip3 install 'django<4' gunicorn
-    **Install supporting libraries:** pip3 install dj_database_url==0.5.0 psycopg2
-    **Create requirements file:** pip3 freeze --local > requirements.txt
-    **Create project:** django-admin startproject organicshop .
-    **Create app:** python3 manage.py startapp home
+   * *In the terminal*:
+        * **Install django and gunicorn:** pip3 install 'django<4' gunicorn
+        * **Install supporting libraries:** pip3 install dj_database_url==0.5.0 psycopg2
+        * **Create requirements file:** pip3 freeze --local > requirements.txt
+        * **Create project:** django-admin startproject organicshop .
+        * **Create app:** python3 manage.py startapp home
 
-    *In settings.py*
-    **Add app to installed apps:** 
+    * *In settings.py*
+        * **Add app to installed apps:** 
     INSTALLED_APPS = [
     …
     'home',
     ]
 
-    *In the terminal:*
-    **Migrate changes:** python3 manage.py migrate
-    **Run Server to Test:** python3 manage.py runserver
-    **Get the hostname:** '8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io'
+    * *In the terminal:*
+        * **Migrate changes:** python3 manage.py migrate
+        * **Run Server to Test:** python3 manage.py runserver
+        * **Get the hostname:** '8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io'
 
     *In settings.py:*
     **Add the hostname to Allowed Hosts:** ALLOWED_HOSTS = ['8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io']
 
 4. An app was created and deployed to [Heroku](heroku.com).
 
-    **1. Create a new app**
-    **2. Give the app a name and select the closest region**
-    **3. Add the config var DATABASE_URL from ElephantSQL**
+    * **1. Create a new app**
+    * **2. Give the app a name and select the closest region**
+    * **3. Add the config var DATABASE_URL from ElephantSQL**
        
-    *In the terminal:*
+    * *In the terminal:*
 
-    **Install dj_database_url and psycopg2:**  pip3 install dj_database_url==0.5.0 psycopg2
-    **Update requirements.txt:**  pip freeze > requirements.txt
+        * **Install dj_database_url and psycopg2:**  pip3 install dj_database_url==0.5.0 psycopg2
+        * **Update requirements.txt:**  pip freeze > requirements.txt
 
-    *In settings.py:*
+    * *In settings.py:*
 
             import os
             import dj_database_url
@@ -645,24 +645,24 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
     *DO NOT commit this file with your database string in the code, this is temporary so that we can connect to the new database and make migrations. We will remove it in a moment.*
 
 
-    *In the terminal:*
+    * *In the terminal:*
 
-    **Run show migrations:**  python3 manage.py showmigrations 
-    **See a list of all migrations**
-    **Migrate:** python3 manage.py migrate
-    **Load fixtures:** python3 manage.py loaddata categories
-    **Load products:**  python3 manage.py loaddata products
-    **Create superuser:** python3 manage.py createsuperuser
+        * **Run show migrations:**  python3 manage.py showmigrations 
+        * **See a list of all migrations**
+        * **Migrate:** python3 manage.py migrate
+        * **Load fixtures:** python3 manage.py loaddata categories
+        * **Load products:**  python3 manage.py loaddata products
+        * **Create superuser:** python3 manage.py createsuperuser
 
 
     *To prevent exposing our database when we push to GitHub, we will delete it again from our settings.py - we’ll set it up again using an environment variable in the next video - and reconnect to our local sqlite database. For now, your DATABASE setting in the settings.py file should look like this:*
 
-     DATABASES = {
-     'default': {
-         'ENGINE': 'django.db.backends.sqlite3',
-         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-     }
-    }
+            DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            }
+            }
 
     
 
