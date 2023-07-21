@@ -257,9 +257,7 @@ The background image of a veggie box with hands holding cherry tomatoes reinforc
 
 ## Features
 
-### Existing Features
-
-#### Home Page 
+### Home Page 
 
 Please click on the links below to see the **Home Page** for large screen and mobile:
 
@@ -275,7 +273,7 @@ Please click on the links below to see the **Home Page** for large screen and mo
 
 [Back to Features](<#features>)
 
-#### Navigation Bar
+### Navigation Bar
 
 Healthy Life Organic shop provides a user-friendly experience with a consistent and responsive navigation design across all pages. The header displays the logo and a navigation menu, allowing easy access to different sections of the site. Clicking on the logo redirects users back to the Home page. 
 
@@ -307,10 +305,10 @@ Please click on the links below to see the **Navigation bar** for large screen a
 ![Mobile - Logged in users](./static/images/readme/navbar_organicshop_logged_in_mobile.jpg)
 </details><br/>
 
-[Back to Navigation bar](<#navigation-bar>)
+[Back to Features](<#features>)
 
 
-#### Products
+### Products
 
 The Products page shows the organic products according to the category selected on the navigation menu.
 
@@ -333,7 +331,7 @@ Please click on the links below to see the **Products page** for large screen an
 [Back to Features](<#features>)
 
 
-#### Product Details
+### Product Details
 
 
 Please click on the links below to see the **Product Details page** for large screen and mobile:
@@ -353,8 +351,26 @@ Please click on the links below to see the **Product Details page** for large sc
 
 [Back to Features](<#features>)
 
+## Blog 
 
-    * [Blog](<#blog>)
+Please click on the links below to see the **Blog** for large screen and mobile:
+
+
+<details><summary><b>Users Logged out and Logged in</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen- User Logged in and out](./static/images/readme/blog-organicshop-desktop.jpg.jpg)
+<br/>
+
+<summary><b>Mobile</b></summary>
+
+![Mobile - User Logged in and out](./static/images/readme/blog-organicshop-mobile.jpg.jpg)
+</details><br/>
+
+[Back to Features](<#features>)
+
+
     * [My Account](<#my-account>)
     * [Django-allauth Features](<#django-allauth-features>)
     * [Add Product](<#add-product>)
