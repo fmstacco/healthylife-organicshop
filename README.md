@@ -585,11 +585,11 @@ The performance score of 73% can be significantly enhanced by simply resizing al
 ## Deployment
 
 
-The deployment process was completed by using [GitHub](https://github.com/), [ElephantSQL](elephantsql.com), [Heroku](heroku.com), following the steps below: 
+The deployment process was completed by using [GitHub](https://github.com/), [Heroku](heroku.com), [ElephantSQL](elephantsql.com), following the steps below: 
 
 1. A new repository called healthylife-organicshop was created on [GitHub](https://github.com/) using the [Code Institute full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 2. A new workspace was created in Gitpod by clicking to the green ‘Gitpod’ button.
-3. **Django and supporting librari were installed as below:
+3. **Django and supporting libraries were installed as below:
 
     *In the terminal*:
     **Install django and gunicorn:** pip3 install 'django<4' gunicorn
@@ -605,21 +605,73 @@ The deployment process was completed by using [GitHub](https://github.com/), [El
     'home',
     ]
 
-    *In the terminal*:
+    *In the terminal:*
     **Migrate changes:** python3 manage.py migrate
     **Run Server to Test:** python3 manage.py runserver
     **Get the hostname:** '8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io'
 
-    *In settings.py*
+    *In settings.py:*
     **Add the hostname to Allowed Hosts:** ALLOWED_HOSTS = ['8000-fmstacco-healthylifeorg-w9zqseip2fh.ws-eu101.gitpod.io']
 
+4. An app was created and deployed to [Heroku](heroku.com).
+
+    **1. Create a new app**
+    **2. Give the app a name and select the closest region**
+    **3. Add the config var DATABASE_URL from ElephantSQL**
+       
+    *In the terminal:*
+
+    **Install dj_database_url and psycopg2:**  pip3 install dj_database_url==0.5.0 psycopg2
+    **Update requirements.txt:**  pip freeze > requirements.txt
+
+    *In settings.py:*
+
+            import os
+            import dj_database_url
+
+        Scroll to DATABASES section:
+
+            # DATABASES = {
+            #     'default': {
+            #         'ENGINE': 'django.db.backends.sqlite3',
+            #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            #     }
+            # }
+                
+            DATABASES = {
+                'default': dj_database_url.parse('your-database-url-here')
+            }
+
+    *DO NOT commit this file with your database string in the code, this is temporary so that we can connect to the new database and make migrations. We will remove it in a moment.*
 
 
+    *In the terminal:*
 
+    **Run show migrations:**  python3 manage.py showmigrations 
+    **See a list of all migrations**
+    **Migrate:** python3 manage.py migrate
+    **Load fixtures:** python3 manage.py loaddata categories
+    **Load products:**  python3 manage.py loaddata products
+    **Create superuser:** python3 manage.py createsuperuser
+
+
+    *To prevent exposing our database when we push to GitHub, we will delete it again from our settings.py - we’ll set it up again using an environment variable in the next video - and reconnect to our local sqlite database. For now, your DATABASE setting in the settings.py file should look like this:*
+
+     DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+     }
+    }
+
+    
 
 
 4. An external database was created on [ElephantSQL](elephantsql.com) 
-5. An app was created deployed to [Heroku](heroku.com).
+
+
+
+5. 
 
 
 
