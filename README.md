@@ -360,12 +360,12 @@ Please click on the links below to see the **Blog** for large screen and mobile:
 
 <summary><b>Large Screen</b></summary>
 
-![Large screen- User Logged in and out](./static/images/readme/blog-organicshop-desktop.jpg.jpg)
+![Large screen- User Logged in and out](./static/images/readme/blog-organicshop-desktop.jpg)
 <br/>
 
 <summary><b>Mobile</b></summary>
 
-![Mobile - User Logged in and out](./static/images/readme/blog-organicshop-mobile.jpg.jpg)
+![Mobile - User Logged in and out](./static/images/readme/blog-organicshop-mobile.jpg)
 </details><br/>
 
 [Back to Features](<#features>)
