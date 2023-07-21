@@ -310,7 +310,37 @@ Please click on the links below to see the **Navigation bar** for large screen a
 [Back to Navigation bar](<#navigation-bar>)
 
 
-    * [Products](<#products>)
+### Products
+
+The Products page shows the organic products according to the category selected on the navigation menu.
+
+Please click on the links below to see the **Products page** for large screen and mobile:
+
+
+<details><summary><b>Users Logged out and Logged in</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen- User Logged out](./static/images/readme/products_organicshop_logged_in_out_desktop.jpg)
+<br/>
+
+<summary><b>Mobile</b></summary>
+
+![Mobile - User Logged out](./static/images/readme/products_organicshop_logged_in_out_mobile.jpg)
+</details><br/>
+
+
+
+[Back to Products](<#products>)
+
+
+
+
+
+
+
+
+
     * [Product Details](<#product-details>)
     * [Blog](<#blog>)
     * [My Account](<#my-account>)
