@@ -164,6 +164,9 @@ Please click on the links below to see the **wireframes** for large screen and m
 
 <img src="./static/images/readme/wireframe-organicshop-homepage.jpg" alt="Home Page Wireframe"></details>
 
+<details><summary><b>Products Page</b></summary>
+
+<img src="./static/images/readme/organic shop-products-page.jpg" alt="Home Page Wireframe"></details>
 
 
 
@@ -240,9 +243,9 @@ Healthy Life Orgnic Shop is structured to cater to both registered and non-regis
 
 ### Design Choices
 
+Our organic shop's design utilizes green and white colors to convey sustainability, natural eating, and a deep connection to nature. Green, symbolizing fresh produce and eco-consciousness, reflects our commitment to offering organic products that are both wholesome and environmentally friendly. 
 
-
-
+The background image of a veggie box with hands holding cherry tomatoes reinforces our commitment to fresh, locally sourced produce and the farm-to-table concept. Our color palette and imagery come together creating an inviting and meaningful online space for a wholesome and sustainable living.
 
 
 ## Technologies Used
