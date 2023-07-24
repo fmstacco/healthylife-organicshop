@@ -430,6 +430,15 @@ Please click on the links below to see the **Order Confirmation** for large scre
 
 ## Footer 
 
+The footer section contains the quick links to improve the user experience, redirecting back to the pages of the website, Home, Activities and My Account.
+
+The social icons for Facebook, Twitter and Instagram take the user to another tab, thus, enhancing the user experience. They are there only for educational purposes.
+
+It contains also a "Subscribe to our Newsletter" features, which was made through the Mailchimp so it is posible to build an audience.
+
+It also contains the copyright notice, with the year and the company's name.
+
+
 Please click on the links below to see the **Footer** for large screen and mobile:
 
 
@@ -448,17 +457,26 @@ Please click on the links below to see the **Footer** for large screen and mobil
 [Back to Features](<#features>)
 
 
-    * [My Account](<#my-account>)
-    * [Django-allauth Features](<#django-allauth-features>)
-    * [Add Product](<#add-product>)
-    * [Login](<#login>)
-    * [Toasts](<#toasts>)
-
-* [**Future Features**](<#future-features>)
+## Toasts
 
 
 
 
+## Future Features 
+
+Healthy Life Organic Shop website can be improved in the future through new features to be developed and implemented, such as:
+
+* #14 As a shopper I want to be able to Easily see what I`ve searched for and the number of results so that I can quickly decide whether the product I want is available - Epic Sorting and Searching
+
+* #27 As a **Shopper / Site User ** I want to share my wish list with friends and family, so that they can easily find gift ideas for special occasions like birthdays or holidays - Epic Wishlist
+
+* #28 As a **As a Shopper / User **I want to be able to add items directly from the product pages to my wish list, so that I can quickly add products I like without going back to the list - Epic Wishlist
+
+* Sharing and Social Media Integration: - Enable users to share products from products page/products detail page on social media platforms such as Facebook, Instagram , Pinterest to reach a wider audience.
+
+* Reviews - for future development it would be nice to have a review system to complement the rating system where users can write and leave a review on the product to provide feedback and help other users choose their organic products.
+
+* Admin Panel - Enhance the admin panel page (front end).
 
 
 
