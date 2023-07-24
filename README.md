@@ -613,6 +613,34 @@ Below are some examples of features tested manually.
 | Forgot password        | Redirected to password reset page     |    pass   |
 
 
+**Logout**
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Log out           | Clicking *logout* on My account menu redirects to logout page|    pass   |
+| Log out button         | Clicking *logout* the user is securely logged out |    pass   |
+| Success Pop up         | Displaying success flash message when logged out|    pass   |
+| Home page        | Redirected to home page     |    pass   |
+
+
+**Products and Products detail page**
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Sorting          | Sorting function on the products page is working accordingly.|    pass   |
+| Click image       | Clicking on the image redirects to product page detail|    pass   |
+| Image        | The correct image and information for each product is being shown|    pass   |
+| Keep shopping         | Clicking Keep Shopping button redirects to all products page|    pass   |
+| Bag amount          | When adding products to the bag the total updates correctly.|    pass   |
+| Add to Bag          | Clicking the Add To Bag button on the product detail page adds the quantity to shopping bag and shows success message|    pass   |
+| Add to wishlist     | Clicking the Add To Wishlist button on the product detail page adds the product to wishlist page and shows success message|    pass   |
+| Add quantity     | It's possible to add quantity on the product detail page|    pass   |
+| Add quantity     | It's possible to add quantity on the product detail page|    pass   |
+
+
+
+
+
 **Footer**
 
 | Test Case              |  Expected Result                                            | Pass/Fail |
