@@ -919,12 +919,45 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
                 git push
 
 
+* **Amazon AWS** 
 
- 
+Amazon AWS was used to store the project's files and images accoring to [Code Institute](https://youtu.be/uGdZeX319Q4) guidance: 
+
+1. Set up an account / Log into Amazon AWS
+2. Sign-in in the upper right by accessing the AWS management console under my account.
+3. Search for S3
+4. Create a new bucket, name it matching the heroku app name.
+5. Select the closest region to you
+6. To complete the set up the [CI Bucket creation update](https://codeinstitute.s3.amazonaws.com/fullstack/AWS%20changes%20sheet.pdf) was follwed.
+
+* **Connecting Django to S3**
+
+To connect Django to S3 the [CI guidance](https://www.youtube.com/watch?v=r-HJv_MyOqw&t=43s) was also followed: 
+
+1. The settings.py file was updated with variable keys.
+
+    * if 'USE_AWS' in os.environ:
+    * AWS_STORAGE_BUCKET_NAME = 'insert-your-bucket-name-here'
+    * AWS_S3_REGION_NAME = 'insert-your-region-here'
+    * AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    * AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+
+2. Config Vars was added to Heroku
+
+    * AWS_SECRET_ACCESS_KEY
+    * USE_AWS set to True
+    * Remove DISABLE_COLLECTSTATIC
+
+3. Create a custom_storages.py file and update settings.py
+
+4. Override and set the URLS for static and media files using your custom domain and new locations.
+
+5. Push the changes and now it is posible to see the static folder with all static files inside.
+
+* **Caching, Media Files & Stripe**
 
 
-
-
+Caching, Media files and Stripe was also configured folloing [CI guidance](https://www.youtube.com/watch?v=r-HJv_MyOqw&t=43s). 
 
 
 ### **Forking this repository on GitHub**
