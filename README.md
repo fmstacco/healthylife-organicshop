@@ -371,6 +371,29 @@ Please click on the links below to see the **Blog** for large screen and mobile:
 [Back to Features](<#features>)
 
 
+
+
+
+## Footer 
+
+Please click on the links below to see the **Footer** for large screen and mobile:
+
+
+<details><summary><b>Users Logged out and Logged in</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen- User Logged in and out](./static/images/readme/footer-organicshop.jpg)
+<br/>
+
+<summary><b>Mobile</b></summary>
+
+![Mobile - User Logged in and out](./static/images/readme/footer-organicshop-mobile.jpg)
+</details><br/>
+
+[Back to Features](<#features>)
+
+
     * [My Account](<#my-account>)
     * [Django-allauth Features](<#django-allauth-features>)
     * [Add Product](<#add-product>)
@@ -378,7 +401,6 @@ Please click on the links below to see the **Blog** for large screen and mobile:
     * [Shopping Bag](<#shopping-bag>)
     * [Checkout](<#checkout>)
     * [Order Confirmation](<#order-confirmation>)
-    * [Footer](<#footer>)
     * [Toasts](<#toasts>)
 * [**Future Features**](<#future-features>)
 
@@ -662,9 +684,6 @@ Below are some examples of features tested manually.
 | Save delivery information     | Tick box for save delivery information is showing |    pass   |
 | Payment form     | Payment with Stripe test card number is working correctly |    pass   |
 | Complete Order button     | Complete order button is working correctly |    pass   |
-
-
-
 
 
 
