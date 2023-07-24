@@ -454,10 +454,10 @@ Healthy Life Organic Shop ecommerce website has gone through intensive tests thr
 
 [JSHint](https://jshint.com/) has been used to validate JavaScript. Missing semicolon errors were returned and quicly corrected as below:
 
-stripe_elements.js in checkout app - No errors reported
-JavaScript inline in bag.html in bag app - No errors reported
-JavaScript inline in products.html in products app - No errors reported
-JavaScript inline in base.html in root templates - No errors reported
+* stripe_elements.js in checkout app - No errors reported
+* JavaScript inline in bag.html in bag app - No errors reported
+* JavaScript inline in products.html in products app - No errors reported
+* JavaScript inline in base.html in root templates - No errors reported
 
 
 ![JavaScript validation image ](./static/images/readme/javascript-validation-organicshop.jpg) 
