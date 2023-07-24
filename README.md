@@ -438,9 +438,10 @@ Healthy Life Organic Shop ecommerce website has gone through intensive tests thr
 
 **HTML validation** 
 
-[W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML. 
 
-![HTML validation image ](./static/images/readme/w3-html-validator.jpg) 
+[W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML of all pages.
+
+![HTML validation image ](./static/images/readme/w3-html-validator-organic-shop.jpg) 
 
 
 **CSS validation** 
@@ -746,17 +747,11 @@ Below are some examples of features tested manually.
 
 ### Bugs Fixed
 
-Along the development of Its4kids application some error appeared during the debug process which were corrected, for example programming errors due to not running migrations, path errors, among others. Also during the website testing process some smaller errors appeared on the code validation and they were immediately corrected. 
+Along the development of Health Life Organic Shop application some error appeared during the debug process which were corrected, for example programming errors due to not running migrations, path errors, among others. Also during the website testing process some smaller errors appeared on the code validation and they were immediately corrected. 
 
 Follow below some examples:
 
-![Home Page - Bugs Fixed ](./static/images/readme/html-bugs-fixed.png) 
-
-![Programming Error - Bugs Fixed ](./static/images/readme/fixed-bugs-programmingError.jpg) 
-
-![Redirect - Bugs Fixed ](./static/images/readme/fixed-bugs-redirect.jpg) 
-
-![IntegrityError - Bugs Fixed ](./static/images/readme/bug-fixed-integrityError.png) 
+![Home Page - Bugs Fixed ](./static/images/readme/html-bug-organicshop.jpg) 
 
 
 
