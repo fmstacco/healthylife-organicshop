@@ -450,7 +450,7 @@ Healthy Life Organic Shop ecommerce website has gone through intensive tests thr
 
 ![CSS validation image ](./static/images/readme/w3-css-validator-organic-shop.jpg) 
 
-**JavaScript validation image**
+**JavaScript validation**
 
 [JSHint](https://jshint.com/) has been used to validate JavaScript. Missing semicolon errors were returned and quicly corrected as below:
 
