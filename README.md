@@ -308,6 +308,7 @@ Please click on the links below to see the **Navigation bar** for large screen a
 
 The Products page shows the organic products according to the category selected on the navigation menu.
 
+
 Please click on the links below to see the **Products page** for large screen and mobile:
 
 
@@ -329,9 +330,9 @@ Please click on the links below to see the **Products page** for large screen an
 
 ### Product Details
 
+The **wishlist feature** can also be seen on this page where the user can add the product to the wishlist.
 
 Please click on the links below to see the **Product Details page** for large screen and mobile:
-
 
 <details><summary><b>Users Logged out and Logged in</b></summary><br>
 
@@ -426,8 +427,6 @@ Please click on the links below to see the **Order Confirmation** for large scre
 [Back to Features](<#features>)
 
 
-
-
 ## Footer 
 
 The footer section contains the quick links to improve the user experience, redirecting back to the pages of the website, Home, Activities and My Account.
@@ -459,8 +458,16 @@ Please click on the links below to see the **Footer** for large screen and mobil
 
 ## Toasts
 
+Feedback messages (flash messages) has been implementes to this website.
+
+Please click on the links below to see examples of **Feedback messages **:
 
 
+<details><summary><b>Feedback Messages</b></summary><br>
+
+
+![Feedback Messages](./static/images/readme/feedback-message.jpg)
+</details><br/>
 
 ## Future Features 
 
@@ -755,6 +762,36 @@ Below are some examples of features tested manually.
 | Payment form     | Payment with Stripe test card number is working correctly |    pass   |
 | Complete Order button     | Complete order button is working correctly |    pass   |
 
+
+**Wishlist page**
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Wishlist link     | when logged in the user can access the products on their wishlist through my account |    pass   |
+| Remove button| the users can remove products from their wishlist |    pass   |
+
+**Profile page**
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| profile link    | when logged in the user can access their profile through my account |    pass   |
+| update button| the users can update their profile on the profile page |    pass   |
+
+| Status | **Admin Django panel**
+|:-------:|:--------|
+| &check; | Can add a category
+| &check; | Can add a product
+| &check; | Can update a product
+| &check; | Can remove a product
+| &check; | Can add a blog post
+| &check; | Can update a blog post
+| &check; | Can remove a blog post
+
+| Status | **Admin Frontend**
+|:-------:|:--------|
+| &check; | Can add a product
+| &check; | Can update a product
+| &check; | Can remove a product
 
 
 **Footer**
