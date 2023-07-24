@@ -371,6 +371,24 @@ Please click on the links below to see the **Blog** for large screen and mobile:
 [Back to Features](<#features>)
 
 
+## Shopping Bag
+
+Please click on the links below to see the **Shopping Bag** for large screen and mobile:
+
+
+<details><summary><b>Users Logged out and Logged in</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen- User Logged in and out](./static/images/readme/shopping-bag.jpg)
+<br/>
+
+<summary><b>Mobile</b></summary>
+
+![Mobile - User Logged in and out](./static/images/readme/shopping-bag-mobile.jpg)
+</details><br/>
+
+[Back to Features](<#features>)
 
 
 
@@ -402,6 +420,7 @@ Please click on the links below to see the **Footer** for large screen and mobil
     * [Checkout](<#checkout>)
     * [Order Confirmation](<#order-confirmation>)
     * [Toasts](<#toasts>)
+
 * [**Future Features**](<#future-features>)
 
 
