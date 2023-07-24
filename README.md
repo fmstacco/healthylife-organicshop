@@ -654,6 +654,18 @@ Below are some examples of features tested manually.
 
 **Checkout page**
 
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Order summary      | The correct products, information and delivery amount are showing |    pass   |
+| Updated profile information | Updated profile information is showing |    pass   |
+| Adjust bag    | Clicking adjust bag redirects to shopping bag page |    pass   |
+| Save delivery information     | Tick box for save delivery information is showing |    pass   |
+| Payment form     | Payment with Stripe test card number is working correctly |    pass   |
+| Complete Order button     | Complete order button is working correctly |    pass   |
+
+
+
+
 
 
 **Footer**
