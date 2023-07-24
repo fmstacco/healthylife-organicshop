@@ -29,10 +29,6 @@ Welcome to the live site here: <a href="https://organic-shop.herokuapp.com/" tar
     * [Products](<#products>)
     * [Product Details](<#product-details>)
     * [Blog](<#blog>)
-    * [My Account](<#my-account>)
-    * [Django-allauth Features](<#django-allauth-features>)
-    * [Add Product](<#add-product>)
-    * [Login](<#login>)
     * [Shopping Bag](<#shopping-bag>)
     * [Checkout](<#checkout>)
     * [Order Confirmation](<#order-confirmation>)
@@ -404,10 +400,33 @@ Please click on the links below to see the **Checkout** for large screen and mob
 
 <summary><b>Mobile</b></summary>
 
-![Mobile - User Logged in and out](./static/images/readme/checkout-mobile.jpg.jpg)
+![Mobile - User Logged in and out](./static/images/readme/checkout-mobile.jpg)
 </details><br/>
 
 [Back to Features](<#features>)
+
+
+## Order confirmation
+
+Please click on the links below to see the **Order Confirmation** for large screen and mobile:
+
+
+<details><summary><b>Users Logged out and Logged in</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen- User Logged in and out](./static/images/readme/order-confirmation.jpg)
+<br/>
+
+<summary><b>Mobile</b></summary>
+
+![Mobile - User Logged in and out](./static/images/readme/order-confirmation.jpg)
+</details><br/>
+
+[Back to Features](<#features>)
+
+
+
 
 ## Footer 
 
@@ -433,7 +452,6 @@ Please click on the links below to see the **Footer** for large screen and mobil
     * [Django-allauth Features](<#django-allauth-features>)
     * [Add Product](<#add-product>)
     * [Login](<#login>)
-    * [Order Confirmation](<#order-confirmation>)
     * [Toasts](<#toasts>)
 
 * [**Future Features**](<#future-features>)
