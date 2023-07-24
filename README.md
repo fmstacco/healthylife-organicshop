@@ -586,7 +586,45 @@ Below are some examples of features tested manually.
 | All blog posts  | Clicking the *all blog posts* link in the *blog* dropdown menu lists all blog posts on the website. |    pass   |
 
 
+**Sign Up**
 
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Register          | Clicking *register* on My account menu redirects to sign up page|    pass   |
+| Sig up form         | Input fields for email and password |    pass   |
+| Sign up button         | Clicking *sign in button* submits sign in form  |    pass   |
+| Success Pop up         | Displaying success flash message when sign in |    pass   |
+| Confirmation email        | Confirmation email sent to registered email|    pass   |
+| Back to login button        | Redirected to home page     |    pass   |
+
+
+**Login**
+
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Log in           | Clicking *login* on My account menu redirects to login up page|    pass   |
+| Sig in form         | Input fields for email and password |    pass   |
+| Remember me| Remembering tick box showing |    pass   |
+| Sign in button         | Clicking *sign in button* submits sign in form  |    pass   |
+| Success Pop up         | Displaying success flash message when sign in |    pass   |
+| Home page        | Redirected to home page     |    pass   |
+| Forgot password        | Redirected to password reset page     |    pass   |
+
+
+**Footer**
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Home link          | Clicking the Home link in the footer redirects to home|    pass   |
+| Products link          | Clicking the Products link in the footer redirects to products page|    pass   |
+| Blog link          | Clicking the Blog link in the footer redirects to blog posts page|    pass   |
+| Facebook link          | Clicking the Facebook link in the footer opens Facebook in a new window|    pass   |
+| Twitter link          | Clicking the Twitter link in the footer  opens Twitter in a new window|    pass   |
+| Instagram link          | Clicking the Instagram link in the footer opens Instagram in a new window|    pass   |
+| Subscribe valid email   | Register a valid e-mail address in the e-mail signup in the footer opens confirmation page|    pass   |
+| Subscribe invalid email   | Register a non-valid e-mail address in the e-mail signup in the footer triggers an error message|    pass   |
 
 
 
@@ -760,7 +798,6 @@ Along the development of Health Life Organic Shop application some error appeare
 Follow below some examples:
 
 ![Home Page - Bugs Fixed ](./static/images/readme/html-bug-organicshop.jpg) 
-
 
 
 ### Additional Testing
@@ -1001,12 +1038,10 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 [Back to top](<#contents>)
 
 
-
-
 ## Credits
 
 ### Code
-[Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1) - This project is so far fully based on Boutique Ado walkthrough which will be customized in the next submission.
+[Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1) - This project is based on Boutique Ado walkthrough with customizations.
 [Stackoverflow](https://stackoverflow.com/) - helped me along the way with some bugs. 
 [Ricardo Maroquio](https://www.youtube.com/watch?v=3dobl8hdeYw) - inspirations for the code for ecommerce organic shop.
 [Denis Ivy](https://www.youtube.com/watch?v=_ELCMngbM0E&list=PL-51WBLyFTg0omnamUjL1TCVov7yDTRng) - tutorial on Django Ecommerce Website 
