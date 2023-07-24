@@ -390,7 +390,24 @@ Please click on the links below to see the **Shopping Bag** for large screen and
 
 [Back to Features](<#features>)
 
+## Checkout 
 
+Please click on the links below to see the **Checkout** for large screen and mobile:
+
+
+<details><summary><b>Users Logged out and Logged in</b></summary><br>
+
+<summary><b>Large Screen</b></summary>
+
+![Large screen- User Logged in and out](./static/images/readme/checkout.jpg)
+<br/>
+
+<summary><b>Mobile</b></summary>
+
+![Mobile - User Logged in and out](./static/images/readme/checkout-mobile.jpg.jpg)
+</details><br/>
+
+[Back to Features](<#features>)
 
 ## Footer 
 
@@ -416,8 +433,6 @@ Please click on the links below to see the **Footer** for large screen and mobil
     * [Django-allauth Features](<#django-allauth-features>)
     * [Add Product](<#add-product>)
     * [Login](<#login>)
-    * [Shopping Bag](<#shopping-bag>)
-    * [Checkout](<#checkout>)
     * [Order Confirmation](<#order-confirmation>)
     * [Toasts](<#toasts>)
 
