@@ -769,9 +769,10 @@ A test was conducted using [Google Lighthouse](https://developers.google.com/web
 
 It tests each of the pages for ***performance, accessibility, best practices and, SEO***
 
-The performance score of 73% can be significantly enhanced by simply resizing all the images used on the website.
+The acessibility score of 89% can be significantly improved by enhance the constrast ratio between the background and foreground colors.
 
-![Lighthouse test results](./static/images/readme/lighthouse-desktop.jpg)
+
+![Lighthouse test results](./static/images/readme/lighthouse.jpg)
 
 
 [Back to top](<#contents>)
