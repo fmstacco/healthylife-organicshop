@@ -634,10 +634,25 @@ Below are some examples of features tested manually.
 | Bag amount          | When adding products to the bag the total updates correctly.|    pass   |
 | Add to Bag          | Clicking the Add To Bag button on the product detail page adds the quantity to shopping bag and shows success message|    pass   |
 | Add to wishlist     | Clicking the Add To Wishlist button on the product detail page adds the product to wishlist page and shows success message|    pass   |
-| Add quantity     | It's possible to add quantity on the product detail page|    pass   |
-| Add quantity     | It's possible to add quantity on the product detail page|    pass   |
+| Add quantity     | Adding quantity on the product detail page is working correctly|    pass   |
+| Secure Checkout    |clicking secure checkout redirects to shopping bag page|    pass   |
 
 
+**Shopping Bag**
+
+| Test Case              |  Expected Result                                            | Pass/Fail |
+|------------------------|-------------------------------------------------------------|-----------|
+| Update         | Updating quantity is working correctly|    pass   |
+| Update success message         | Update success message is working correctly|    pass   |
+| Remove       | Remove product is working correctly|    pass   |
+| Remove success message         | Remove success message is working correctly|    pass   |
+| Bag total amount         | Bag total amount  is working correctly|    pass   |
+| Grand total amount         | Grand total amount is working correctly|    pass   |
+| Free delivery message     | Free delivery message is working correctly|    pass   |
+| Keep shopping         | Clicking Keep Shopping button redirects to all products page|    pass   |
+| Secure Checkout    |clicking secure checkout redirects to checkout page|    pass   |
+
+**Checkout page**
 
 
 
