@@ -1,6 +1,6 @@
-# **Healty Life Organic Shop - Project Portfolio 5**
+# **Healthy Life Organic Shop - Project Portfolio 5**
 
-Healthy Life Organic Shop is an e-commerce ficticional online store that sells a range of organic goods that are free from pesticides and GMO ingredients. The Organic Shop offers a carefully curated organic items from fresh produce to pantry essentials, cosmetics, and even cleaning supplies. We have a blog that provides valuable insights and tips for maintaining a healthy lifestyle.
+Healthy Life Organic Shop is an e-commerce fictional online store that sells a range of organic goods that are free from pesticides and GMO ingredients. The Organic Shop offers a carefully curated organic items from fresh produce to pantry essentials, cosmetics, and even cleaning supplies. We have a blog that provides valuable insights and tips for maintaining a healthy lifestyle.
 
 This is a fictional website that was created for Portfolio Project 5 - Diploma in Full Stack Software Development at the Code Institute.
 
