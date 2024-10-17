@@ -1,6 +1,6 @@
 # **Healthy Life Organic Shop - Project Portfolio 5**
 
-Healthy Life Organic Shop is an e-commerce fictional online store that sells a range of organic goods that are free from pesticides and GMO ingredients. The Organic Shop offers a carefully curated organic items from fresh produce to pantry essentials, cosmetics, and even cleaning supplies. We have a blog that provides valuable insights and tips for maintaining a healthy lifestyle.
+Healthy Life Organic Shop is an e-commerce fictional online store that sells a range of organic goods that are free from pesticides and GMO ingredients. The Organic Shop offers carefully curated organic items from fresh produce to pantry essentials, cosmetics, and even cleaning supplies. We have a blog that provides valuable insights and tips for maintaining a healthy lifestyle.
 
 This is a fictional website that was created for Portfolio Project 5 - Diploma in Full Stack Software Development at the Code Institute.
 
@@ -67,7 +67,7 @@ The site owner's goal is to provide a positive and user-friendly shopping experi
 
 ## Business Model
 
-Healthy Life Organic Shop is a business that only operates online through its ecommerce. We sell fresh produce, groceries and a wide range of products directly to the consumer, so we operate throgh *B2C business model*. We work directly with organic farmers and producers ensuring that our customers have access to a wide range of fresh and sustainable products while supporting local Irish farmers. 
+Healthy Life Organic Shop is a business that only operates online through its ecommerce. We sell fresh produce, groceries and a wide range of products directly to the consumer, so we operate through *B2C business model*. We work directly with organic farmers and producers ensuring that our customers have access to a wide range of fresh and sustainable products while supporting local Irish farmers. 
 
 [Back to project](<#project>)
 
@@ -91,9 +91,9 @@ Please, click the link below to see Mailchimp Newsletter:
 
 To establish a strong online presence for Healthy Life Organic Shop, we have chosen Facebook and Instagram. By utilizing these popular social media platforms, we aim to expand our reach and attract a larger customer base to our ecommerce store. We also intend to foster closer connections with our customers through engaging content and personalized interactions.
 
-The Instagram page is still in progress. Both will be alocated as an asset of Facebook Meta Business Suite, which will allows the management of several aspects such as manage posts and also advertising.  
+The Instagram page is still in progress. Both will be allocated as an asset of Facebook Meta Business Suite, which will allows the management of several aspects such as manage posts and also advertising.  
 
-The navlinks for the social media pages can be acessed from the Footer.
+The navegation links for the social media pages can be accessed from the Footer.
 
 Please, click the link below to see our Facebook page:
 
@@ -105,9 +105,9 @@ Please, click the link below to see our Facebook page:
 
 ### Search Engine Optimization (SEO)
 
-Search Engine Optimization is extremelly relevant for an organic e-commerce platform as it can attract customers who are genuinely interested in purchasing organic products. The use of SEO tools can enhance the visibility of a website, attract target traffic, improve user experience and increase sales and converting visitors into customers. 
+Search Engine Optimization is extremely relevant for an organic e-commerce platform as it can attract customers who are genuinely interested in purchasing organic products. The use of SEO tools can enhance the visibility of a website, attract target traffic, improve user experience and increase sales and convert visitors into customers. 
 
-    * Meta Description: Organic shop that sells organic food, organic fruits, vegetablfes, meats, cupboard food.
+    * Meta Description: Organic shop that sells organic food, organic fruits, vegetables, meats, cupboard food.
     * Meta Keywords: organic shop, organic fruit, organic vegetables, organic box, organic veg, fresh fruit, fresh vegetable, 100% organic, organic wholefoods, organic vegetables, Ireland.
 
 
@@ -154,7 +154,7 @@ Please, click the link below to see the database structure:
 
 ### Wireframes
 
-The wireframes for Healthy Life Organic Shop website were developed on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the blog. 
+The wireframes for the Healthy Life Organic Shop website were developed on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the blog. 
 
 Please click on the links below to see the **wireframes** for large screen and mobile:
 
@@ -200,9 +200,9 @@ Please click on the links below to see the **wireframes** for large screen and m
 |:-------:|:--------|:--------|
 | #10 As a Shopper / User | I want to  be able to sort the list of available organic products so that I can easily identify the best rated, best-priced and categorically sorted products | &#9745; |
 | #11 As a Shopper / User | I want to  be able to sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort the products in that category name  | &#9745; |
-| #12 As a Shopper / User | I want to  be able to sort  multiple categories of products simultaneously so that I can find the best-priced or best-rated product accross broad categories, such as "all groceries" or "all fresh produce"  | &#9745; |
+| #12 As a Shopper / User | I want to  be able to sort  multiple categories of products simultaneously so that I can find the best-priced or best-rated product across broad categories, such as "all groceries" or "all fresh produce"  | &#9745; |
 | #13 As a Shopper / User | I want to  be able to search for a product by name or description so that I can find a specific product I'd like to purchase  | &#9745; |
-| #14 As a Shopper / User | I want to  be able to easily see what I`ve searched for and the number of results so that I can quickly decide whether the product I want is available  | &#9746; |
+| #14 As a Shopper / User | I want to  be able to easily see what I've searched for and the number of results so that I can quickly decide whether the product I want is available  | &#9746; |
 
 ### Epic 4 - Purchasing and Checkout
 |  | | |
@@ -212,7 +212,7 @@ Please click on the links below to see the **wireframes** for large screen and m
 | #18 As a Shopper / User | I want to  be able to easily enter my payment information so that I can checkout quickly and with no hassles.  | &#9745; |
 | #19 As a Shopper / User | I want to  be able to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase  | &#9745; |
 | #20 As a Shopper / User | I want to  be able to view an order confirmation after checking out so that I can verify that I haven't made any mistakes  | &#9745; |
-| #21 As a Shopper / User | I want to  be able to receive an email confirmation after checking out so that I can keep the confirmation on what I've purchased for my records.  | &#9745; |
+| #21 As a Shopper / User | I want to  be able to receive email confirmation after checking out so that I can keep the confirmation on what I've purchased for my records.  | &#9745; |
 
 
 ### Epic 5 - Admin and Store ManagementS
@@ -433,7 +433,7 @@ The footer section contains the quick links to improve the user experience, redi
 
 The social icons for Facebook, Twitter and Instagram take the user to another tab, thus, enhancing the user experience. They are there only for educational purposes.
 
-It contains also a "Subscribe to our Newsletter" features, which was made through the Mailchimp so it is posible to build an audience.
+It also contains a "Subscribe to our Newsletter" feature, which was made through Mailchimp so it is possible to build an audience.
 
 It also contains the copyright notice, with the year and the company's name.
 
@@ -458,7 +458,7 @@ Please click on the links below to see the **Footer** for large screen and mobil
 
 ## Toasts
 
-Feedback messages (flash messages) has been implementes to this website.
+Feedback messages (flash messages) have been implemented to this website.
 
 Please click on the links below to see examples of **Feedback messages **:
 
@@ -473,7 +473,7 @@ Please click on the links below to see examples of **Feedback messages **:
 
 Healthy Life Organic Shop website can be improved in the future through new features to be developed and implemented, such as:
 
-* #14 As a shopper I want to be able to Easily see what I`ve searched for and the number of results so that I can quickly decide whether the product I want is available - Epic Sorting and Searching
+* #14 As a shopper I want to be able to Easily see what I've searched for and the number of results so that I can quickly decide whether the product I want is available - Epic Sorting and Searching
 
 * #27 As a **Shopper / Site User ** I want to share my wish list with friends and family, so that they can easily find gift ideas for special occasions like birthdays or holidays - Epic Wishlist
 
@@ -502,10 +502,10 @@ Healthy Life Organic Shop website can be improved in the future through new feat
 
 ### Frameworks, supporting libraries and other programs 
 
-* [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) was used for authentication, registration, account management.
+* [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) was used for authentication, registration, and account management.
 * [Amazon Web Services](https://aws.amazon.com/) - A service that hosts all static files and images in the project.
 * [Bootstrap](https://getbootstrap.com/) was used to style the website, easily add responsiveness and interactivity.
-* [CANVA](https://www.canva.com/) to create the logo, color palete (Pro version) 
+* [CANVA](https://www.canva.com/) to create the logo, color palette (Pro version) 
 * [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style the forms.
 * [Django](https://www.djangoproject.com/) as the framework to build the blog.
 * [ElephantSQL](https://www.elephantsql.com/) - A PostgreSQL database hosting service.
@@ -551,7 +551,7 @@ Healthy Life Organic Shop ecommerce website has gone through intensive tests thr
 
 **JavaScript validation**
 
-[JSHint](https://jshint.com/) has been used to validate JavaScript. Missing semicolon errors were returned and quicly corrected as below:
+[JSHint](https://jshint.com/) has been used to validate JavaScript. Missing semicolon errors were returned and quickly corrected as below:
 
 * stripe_elements.js in checkout app - No errors reported
 * JavaScript inline in bag.html in bag app - No errors reported
@@ -580,11 +580,11 @@ CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to v
 * admin.py - All clear, no errors found.
 * apps.py - All clear, no errors found.
 * forms.py - All clear, no errors found.
-* models.py - 5 line-too-long errors reported which I decided to keep it according to code style.
+* models.py - 5 line-too-long errors reported which I decided to keep according to code style.
 * signals.py - All clear, no errors found.
 * urls.py - All clear, no errors found.
-* views.py - 5 line-too-long errors reported which I decided to keep it according to code style.
-* webhook_handler.py - 3 line-too-long errors reported which I decided to keep it according to code style.
+* views.py - 5 line-too-long errors reported which I decided to keep according to code style.
+* webhook_handler.py - 3 line-too-long errors reported which I decided to keep according to code style.
 * webhooks.py - All clear, no errors found.
 
 **App Home**
@@ -598,14 +598,14 @@ CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to v
 * forms.py - All clear, no errors found.
 * models.py - All clear, no errors found.
 * urls.py - All clear, no errors found.
-* views.py - 4 line-too-long errors reported which I decided to keep it according to code style.
+* views.py - 4 line-too-long errors reported which I decided to keep according to code style.
 
 **App Profiles**
 * apps.py - All clear, no errors found.
 * forms.py - All clear, no errors found.
-* models.py - 5 line-too-long errors reported which I decided to keep it according to code style.
+* models.py - 5 line-too-long errors reported which I decided to keep according to code style.
 * urls.py - All clear, no errors found.
-* views.py - 3 line-too-long errors reported which I decided to keep it according to code style.
+* views.py - 3 line-too-long errors reported which I decided to keep according to code style.
 
 **organicshop**
 * urls.py - All clear, no errors found.
@@ -620,7 +620,7 @@ CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to v
 
 ### Browser Testing
 
-Healthy Life Organic Shop was manually tested on these browsers as table below and design, layout, functionality and, responsiveness were consistent across all browsers both mobile and desktop.
+Healthy Life Organic Shop was manually tested on these browsers as table below and design, layout, functionality and responsiveness were consistent across all browsers both mobile and desktop.
 
 |   Browser   |    Result  | 
 | :---------: | :---------:| 
@@ -670,7 +670,7 @@ Below are some examples of features tested manually.
 | Organic Groceries dropdown | Clicking the *organic groceries* dropdown menu shows cupboard, pasta and rice, jams and spreads, meat & fish and all groceries menu items. |    pass   | 
 | Cupboard | Clicking the *cupboard* link in the *organic groceries* dropdown menu lists all cupboard items in this category. |    pass   |
 | Pasta and Rice | Clicking the *pasta and rice* link in the *organic groceries* dropdown menu lists all pasta and rice items in this category. |    pass   |
-| Jams and spreads | Clicking the *jams and spreads* link in the *organic groceries* dropdown menu lists all jams and spreadsitems in this category. |    pass   |
+| Jams and spreads | Clicking the *jams and spreads* link in the *organic groceries* dropdown menu lists all jams and spreads items in this category. |    pass   |
 | Meat & fish | Clicking the *meat & fish* link in the *organic groceries* dropdown menu lists all meat & fish items in this category. |    pass   |
 | All groceries | Clicking the *all groceries* link in the *organic groceries* dropdown menu lists all organic groceries products registered. |    pass   |
 | Special Offers dropdown | Clicking the *special offers* dropdown menu shows veg box, fruit box, rescue corner and all specials menu items. |    pass   | 
@@ -804,8 +804,8 @@ Below are some examples of features tested manually.
 | Facebook link          | Clicking the Facebook link in the footer opens Facebook in a new window|    pass   |
 | Twitter link          | Clicking the Twitter link in the footer  opens Twitter in a new window|    pass   |
 | Instagram link          | Clicking the Instagram link in the footer opens Instagram in a new window|    pass   |
-| Subscribe valid email   | Register a valid e-mail address in the e-mail signup in the footer opens confirmation page|    pass   |
-| Subscribe invalid email   | Register a non-valid e-mail address in the e-mail signup in the footer triggers an error message|    pass   |
+| Subscribe valid email   | Register a valid email address in the email signup in the footer opens confirmation page|    pass   |
+| Subscribe invalid email   | Register a non-valid email address in the email signup in the footer triggers an error message|    pass   |
 
 
 
@@ -858,7 +858,7 @@ Below are some examples of features tested manually.
 
 * As a Shopper/User I want to be able to **easily recover my password** in case I forget it so that I can recover access to my account. (#7)
 
-    * On the login page the user has the option to click the link "Forgot Password?" and they can easily recover it by receiving a Password Reset E-mail with the instructions.. 
+    * On the login page the user has the option to click the link "Forgot Password?" and they can easily recover it by receiving a Password Reset Email with the instructions.. 
 
 * As a Shopper/User I want to **log out from the site** so that I can ensure the security of my personal information and maintain my privacy.(#24)
 
@@ -919,7 +919,7 @@ Below are some examples of features tested manually.
 
 * As a Shopper/User I want to  be able to **receive an email confirmation after checking out** so that I can keep the confirmation on what I've purchased for my records. (#21)
 
-    *  After completing the order the shopper/user receives a confirmation e-mail to the e-mail that has been registered in the checkout process.
+    *  After completing the order the shopper/user receives a confirmation email to the email that has been registered in the checkout process.
 
 
 ### Epic 5 - Admin and Store Management
@@ -974,7 +974,7 @@ Below are some examples of features tested manually.
 
 ### Bugs Fixed
 
-Along the development of Health Life Organic Shop application some error appeared during the debug process which were corrected, for example programming errors due to not running migrations, path errors, among others. Also during the website testing process some smaller errors appeared on the code validation and they were immediately corrected. 
+Along the development of the Health Life Organic Shop application some error appeared during the debug process which were corrected, for example programming errors due to not running migrations, path errors, among others. Also during the website testing process some smaller errors appeared on the code validation and they were immediately corrected. 
 
 Follow below some examples:
 
@@ -983,11 +983,11 @@ Follow below some examples:
 
 ### Additional Testing
 
-### Acessibility 
+### Accessibility 
 
 The website color accessibility was checked by using [A11y](https://color.a11y.com/).
 
-![Acessibility validation image ](./static/images/readme/a11y-acessibility-validator-organic-shop.jpg) 
+![Accessibility validation image ](./static/images/readme/a11y-acessibility-validator-organic-shop.jpg) 
 
 ### Lighthouse
 
@@ -995,7 +995,7 @@ A test was conducted using [Google Lighthouse](https://developers.google.com/web
 
 It tests each of the pages for ***performance, accessibility, best practices and, SEO***
 
-The acessibility score of 89% can be significantly improved by enhance the constrast ratio between the background and foreground colors.
+The accessibility score of 89% can be significantly improved by enhancing the contrast ratio between the background and foreground colors.
 
 
 ![Lighthouse test results](./static/images/readme/lighthouse.jpg)
@@ -1139,14 +1139,14 @@ The deployment process was completed by using [GitHub](https://github.com/), [He
 
 * **Amazon AWS** 
 
-Amazon AWS was used to store the project's files and images accoring to [Code Institute](https://youtu.be/uGdZeX319Q4) guidance: 
+Amazon AWS was used to store the project's files and images according to [Code Institute](https://youtu.be/uGdZeX319Q4) guidance: 
 
 1. Set up an account / Log into Amazon AWS
 2. Sign-in in the upper right by accessing the AWS management console under my account.
 3. Search for S3
 4. Create a new bucket, name it matching the heroku app name.
 5. Select the closest region to you
-6. To complete the set up the [CI Bucket creation update](https://codeinstitute.s3.amazonaws.com/fullstack/AWS%20changes%20sheet.pdf) was follwed.
+6. To complete the set up the [CI Bucket creation update](https://codeinstitute.s3.amazonaws.com/fullstack/AWS%20changes%20sheet.pdf) was followed.
 
 * **Connecting Django to S3**
 
@@ -1170,19 +1170,19 @@ To connect Django to S3 the [CI guidance](https://www.youtube.com/watch?v=r-HJv_
 
 4. Override and set the URLS for static and media files using your custom domain and new locations.
 
-5. Push the changes and now it is posible to see the static folder with all static files inside.
+5. Push the changes and now it is possible to see the static folder with all static files inside.
 
 * **Caching, Media Files & Stripe**
 
 
-Caching, Media files and Stripe was also configured folloing [CI guidance](https://www.youtube.com/watch?v=r-HJv_MyOqw&t=43s). 
+Caching, Media files and Stripe was also configured following [CI guidance](https://www.youtube.com/watch?v=r-HJv_MyOqw&t=43s). 
 
 
 ### **Forking this repository on GitHub**
 
 A fork of this repository can be made which will allow you to make changes to this project without affecting the original repository. 
 
-The steps below should be followed to ***fork*** the respository:
+The steps below should be followed to ***fork*** the repository:
 
 1. Log in to ***GitHub*** and find the [repository](https://github.com/fmstacco/healthylife-organicshop).
 
@@ -1196,7 +1196,7 @@ See the image below:
 
 ### **Cloning this project on GitHub**
 
-The steps below should be followed to ***clone*** the respository:
+The steps below should be followed to ***clone*** the repository:
 
 1. On the repository’s page, click on the ***code*** tab.
 2. On the ***Clone with HTTPS*** tab, click on the icon (see image below) to copy the URL.
@@ -1228,11 +1228,11 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 [Denis Ivy](https://www.youtube.com/watch?v=_ELCMngbM0E&list=PL-51WBLyFTg0omnamUjL1TCVov7yDTRng) - tutorial on Django Ecommerce Website 
 
 ### Content 
-[Green Earth Organics](https://www.greenearthorganics.ie/) - the description of the products was taken from this ecommerce Green Earth Organics, which was also an inpiration for this project.
+[Green Earth Organics](https://www.greenearthorganics.ie/) - the description of the products was taken from this ecommerce Green Earth Organics, which was also an inspiration for this project.
 [Evergreen](https://evergreen.ie/blogs) - I got the content for the blog posts.
 
 ### Media
-* [Canva](https://canva.com/) - I got the image for hero home page under the Pro subscription. 
+* [Canva](https://canva.com/) - I got the image for the hero homepage under the Pro subscription. 
 * [The Organic Shop](https://theorganicshop.ie/) - I got all the images for the products from The Organic Shop, which was also an inspiration for this project.
 
 # Acknowledgements
